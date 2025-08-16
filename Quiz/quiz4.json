@@ -1,0 +1,106 @@
+{
+    "title": "Time Complexity & Primitive Counting Quiz",
+    "questions": [
+      {
+        "question": "What is the time complexity of the following loop?\n```java\nfor (int i = 0; i < n; i++) {\n   sum++;\n}\n```",
+        "options": ["O(1)", "O(n)", "O(n^2)", "O(log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How many primitive operations are in this loop?\n```java\nfor (int i = 0; i < n; i++) {\n   x = x + 1;\n}\n```",
+        "options": ["n", "2n", "3n+2", "4n+2"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the complexity of nested loops?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < n; j++) {\n     count++;\n  }\n}\n```",
+        "options": ["O(n)", "O(n^2)", "O(log n)", "O(n log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the complexity of this loop?\n```java\nfor (int i = 1; i < n; i = i * 2) {\n   work();\n}\n```",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(√n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How many operations are in this snippet?\n```java\nx = 1;\ny = 2;\nfor (int i = 0; i < n; i++) {\n  z = x + y;\n}\n```",
+        "options": ["2 + n", "3n + 2", "2n + 1", "n^2"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the complexity of this code?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < i; j++) {\n    count++;\n  }\n}\n```",
+        "options": ["O(n)", "O(n^2)", "O(n log n)", "O(log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Big-O of constant-time operations?",
+        "options": ["O(n)", "O(1)", "O(log n)", "O(n^2)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the time complexity of binary search?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Primitive counting: How many operations?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < n; j++) {\n     x++;\n  }\n}\n```",
+        "options": ["n", "2n", "n^2", "3n^2 + 2"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the time complexity of the Fibonacci recursive algorithm?",
+        "options": ["O(n)", "O(log n)", "O(2^n)", "O(n^2)"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the complexity of inserting at the front of an ArrayList?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the complexity of inserting at the front of a LinkedList?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How many operations?\n```java\nfor (int i = 0; i < n; i++) {\n   for (int j = 0; j < n; j++) {\n      for (int k = 0; k < n; k++) {\n         x++;\n      }\n   }\n}\n```",
+        "options": ["O(n^2)", "O(n^3)", "O(2^n)", "O(log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the complexity of merge sort?",
+        "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the best-case complexity of bubble sort?",
+        "options": ["O(1)", "O(n)", "O(n log n)", "O(n^2)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following has exponential complexity?",
+        "options": ["Binary Search", "Merge Sort", "Tower of Hanoi", "Heap Sort"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the complexity of finding max in an unsorted array?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Primitive counting for this loop?\n```java\nfor (int i = 0; i < n; i++) {\n   for (int j = 0; j < i; j++) {\n      x = x + 1;\n   }\n}\n```",
+        "options": ["n", "n^2", "n(n-1)/2", "2n^2"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the complexity of accessing an element in a HashMap (average case)?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following represents logarithmic complexity?",
+        "options": ["Binary Search", "Linear Search", "Bubble Sort", "Selection Sort"],
+        "correctAnswer": 0
+      }
+    ]
+  }
+  

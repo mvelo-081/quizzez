@@ -1,0 +1,116 @@
+{
+    "title": "Java Collections Framework Methods Quiz",
+    "questions": [
+      {
+        "question": "Which method adds an element at the end of an ArrayList?",
+        "options": ["add()", "addLast()", "insert()", "append()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method removes all elements from a HashSet?",
+        "options": ["delete()", "clear()", "removeAll()", "empty()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you check if a Map contains a specific key?",
+        "options": ["map.existsKey()", "map.hasKey()", "map.containsKey()", "map.keyExists()"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method retrieves but does not remove the head of a Queue?",
+        "options": ["peek()", "poll()", "element()", "head()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method returns the size of a Collection?",
+        "options": ["count()", "length()", "size()", "getSize()"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you replace the element at index 2 of an ArrayList?",
+        "options": ["list.set(2, value)", "list.put(2, value)", "list.replace(2, value)", "list.update(2, value)"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method in Collections class randomly shuffles elements of a list?",
+        "options": ["shuffle()", "randomize()", "mix()", "rotate()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you iterate through keys of a HashMap?",
+        "options": ["map.values()", "map.entries()", "map.keySet()", "map.iterator()"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method in List returns the index of the first occurrence of an element?",
+        "options": ["find()", "indexOf()", "search()", "getIndex()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does map.putIfAbsent(key, value) do?",
+        "options": [
+          "Always replaces the value",
+          "Adds the key-value only if the key is absent",
+          "Throws an exception if key exists",
+          "Returns false if absent"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method removes and returns the head of a PriorityQueue?",
+        "options": ["peek()", "element()", "poll()", "pop()"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you convert a Set into a List?",
+        "options": [
+          "new ArrayList<>(set)",
+          "list.toSet(set)",
+          "Collections.convert(set)",
+          "List.copyOf(set)"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method checks if a Collection is empty?",
+        "options": ["isNull()", "isEmpty()", "size()==0", "both b and c"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you sort a List in ascending order?",
+        "options": ["Collections.sort(list)", "list.sortAscending()", "list.orderBy()", "Arrays.sort(list)"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which method in Collections returns the maximum element of a Collection?",
+        "options": ["getMax()", "Collections.maximum()", "Collections.max()", "maxElement()"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you safely remove elements while iterating a Collection?",
+        "options": ["collection.remove()", "iterator.remove()", "list.delete()", "collection.clear()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method converts a List into an array?",
+        "options": ["list.toArray()", "list.asArray()", "list.array()", "Arrays.asList()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you retrieve the value associated with a key from a Map?",
+        "options": ["map.fetch(key)", "map.get(key)", "map.find(key)", "map.lookup(key)"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method in Collections reverses the order of a List?",
+        "options": ["Collections.reverse()", "Collections.flip()", "list.reverse()", "list.invert()"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you merge two HashSets s1 and s2?",
+        "options": ["s1.join(s2)", "s1.combine(s2)", "s1.addAll(s2)", "s1.merge(s2)"],
+        "correctAnswer": 2
+      }
+    ]
+  }
+  
