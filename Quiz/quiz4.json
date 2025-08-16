@@ -2,32 +2,32 @@
     "title": "Time Complexity & Primitive Counting Quiz",
     "questions": [
       {
-        "question": "What is the time complexity of the following loop?\n```java\nfor (int i = 0; i < n; i++) {\n   sum++;\n}\n```",
+        "question": "What is the time complexity of the following loop?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;sum++;<br>}</pre>",
         "options": ["O(1)", "O(n)", "O(n^2)", "O(log n)"],
         "correctAnswer": 1
       },
       {
-        "question": "How many primitive operations are in this loop?\n```java\nfor (int i = 0; i < n; i++) {\n   x = x + 1;\n}\n```",
+        "question": "How many primitive operations are in this loop?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;x = x + 1;<br>}</pre>",
         "options": ["n", "2n", "3n+2", "4n+2"],
         "correctAnswer": 2
       },
       {
-        "question": "What is the complexity of nested loops?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < n; j++) {\n     count++;\n  }\n}\n```",
+        "question": "What is the complexity of nested loops?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;for (int j = 0; j < n; j++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;count++;<br>&nbsp;&nbsp;}<br>}</pre>",
         "options": ["O(n)", "O(n^2)", "O(log n)", "O(n log n)"],
         "correctAnswer": 1
       },
       {
-        "question": "What is the complexity of this loop?\n```java\nfor (int i = 1; i < n; i = i * 2) {\n   work();\n}\n```",
+        "question": "What is the complexity of this loop?<br><br><pre>for (int i = 1; i < n; i = i * 2) {<br>&nbsp;&nbsp;work();<br>}</pre>",
         "options": ["O(n)", "O(log n)", "O(n log n)", "O(√n)"],
         "correctAnswer": 1
       },
       {
-        "question": "How many operations are in this snippet?\n```java\nx = 1;\ny = 2;\nfor (int i = 0; i < n; i++) {\n  z = x + y;\n}\n```",
+        "question": "How many operations are in this snippet?<br><br><pre>x = 1;<br>y = 2;<br>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;z = x + y;<br>}</pre>",
         "options": ["2 + n", "3n + 2", "2n + 1", "n^2"],
         "correctAnswer": 0
       },
       {
-        "question": "What is the complexity of this code?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < i; j++) {\n    count++;\n  }\n}\n```",
+        "question": "What is the complexity of this code?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;for (int j = 0; j < i; j++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;count++;<br>&nbsp;&nbsp;}<br>}</pre>",
         "options": ["O(n)", "O(n^2)", "O(n log n)", "O(log n)"],
         "correctAnswer": 1
       },
@@ -42,7 +42,7 @@
         "correctAnswer": 1
       },
       {
-        "question": "Primitive counting: How many operations?\n```java\nfor (int i = 0; i < n; i++) {\n  for (int j = 0; j < n; j++) {\n     x++;\n  }\n}\n```",
+        "question": "Primitive counting: How many operations?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;for (int j = 0; j < n; j++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;x++;<br>&nbsp;&nbsp;}<br>}</pre>",
         "options": ["n", "2n", "n^2", "3n^2 + 2"],
         "correctAnswer": 3
       },
@@ -62,7 +62,7 @@
         "correctAnswer": 0
       },
       {
-        "question": "How many operations?\n```java\nfor (int i = 0; i < n; i++) {\n   for (int j = 0; j < n; j++) {\n      for (int k = 0; k < n; k++) {\n         x++;\n      }\n   }\n}\n```",
+        "question": "How many operations?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;for (int j = 0; j < n; j++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;for (int k = 0; k < n; k++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x++;<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;}<br>}</pre>",
         "options": ["O(n^2)", "O(n^3)", "O(2^n)", "O(log n)"],
         "correctAnswer": 1
       },
@@ -87,7 +87,7 @@
         "correctAnswer": 2
       },
       {
-        "question": "Primitive counting for this loop?\n```java\nfor (int i = 0; i < n; i++) {\n   for (int j = 0; j < i; j++) {\n      x = x + 1;\n   }\n}\n```",
+        "question": "Primitive counting for this loop?<br><br><pre>for (int i = 0; i < n; i++) {<br>&nbsp;&nbsp;for (int j = 0; j < i; j++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;x = x + 1;<br>&nbsp;&nbsp;}<br>}</pre>",
         "options": ["n", "n^2", "n(n-1)/2", "2n^2"],
         "correctAnswer": 2
       },
