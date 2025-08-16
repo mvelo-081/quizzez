@@ -222,7 +222,7 @@ class QuizApp {
 
         // Common quiz filenames to try
         const possibleQuizFiles = [
-            'Quiz/quiz1.json',
+            'Quiz/quiz1.json','Quiz/quiz2.json','Quiz/quiz3.json','Quiz/quiz4.json'
         ];
 
         this.availableQuizzes = [];
@@ -604,4 +604,5 @@ class QuizApp {
 // Initialize the quiz app when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     const quizApp = new QuizApp();
+
 });
