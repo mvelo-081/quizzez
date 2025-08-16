@@ -397,39 +397,39 @@ class QuizApp {
         this.saveQuizState(); // Save initial state
     }
 
-    displayQuestion() {
-        const question = this.quizData.questions[this.currentQuestionIndex];
-        const totalQuestions = this.quizData.questions.length;
+displayQuestion() {
+    const question = this.quizData.questions[this.currentQuestionIndex];
+    const totalQuestions = this.quizData.questions.length;
+    
+    // Update progress
+    document.getElementById('progress-info').textContent = 
+        `Question ${this.currentQuestionIndex + 1} of ${totalQuestions}`;
+    
+    // Display question (use innerHTML instead of textContent)
+    document.getElementById('question-text').innerHTML = question.question;
+    
+    // Display options
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    
+    question.options.forEach((option, index) => {
+        const optionElement = document.createElement('div');
+        optionElement.className = 'option';
+        optionElement.textContent = option;
+        optionElement.addEventListener('click', () => this.selectOption(index));
         
-        // Update progress
-        document.getElementById('progress-info').textContent = 
-            `Question ${this.currentQuestionIndex + 1} of ${totalQuestions}`;
+        // Show previous selection
+        if (this.userAnswers[this.currentQuestionIndex] === index) {
+            optionElement.classList.add('selected');
+        }
         
-        // Display question
-        document.getElementById('question-text').textContent = question.question;
-        
-        // Display options
-        const optionsContainer = document.getElementById('options-container');
-        optionsContainer.innerHTML = '';
-        
-        question.options.forEach((option, index) => {
-            const optionElement = document.createElement('div');
-            optionElement.className = 'option';
-            optionElement.textContent = option;
-            optionElement.addEventListener('click', () => this.selectOption(index));
-            
-            // Show previous selection
-            if (this.userAnswers[this.currentQuestionIndex] === index) {
-                optionElement.classList.add('selected');
-            }
-            
-            optionsContainer.appendChild(optionElement);
-        });
-        
-        // Update button states
-        this.updateButtonStates();
-        this.hideAnswer();
-    }
+        optionsContainer.appendChild(optionElement);
+    });
+    
+    // Update button states
+    this.updateButtonStates();
+    this.hideAnswer();
+}
 
     selectOption(optionIndex) {
         if (this.showingAnswer) return;
@@ -606,3 +606,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const quizApp = new QuizApp();
 
 });
+
