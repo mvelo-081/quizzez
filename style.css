@@ -350,7 +350,6 @@ body {
     text-align: center;
     font-style: italic;
 }
-
 @media (max-width: 600px) {
     .title {
         font-size: 2rem;
@@ -359,10 +358,88 @@ body {
     .container {
         margin: 1rem;
         padding: 1rem;
+        width: 95%;
     }
     
     .quiz-controls {
         flex-direction: column;
         gap: 1rem;
+    }
+    
+    .question-card {
+        padding: 1rem;
+    }
+    
+    .option {
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 1rem;
+    }
+    
+    .quiz-header {
+        padding: 0.5rem;
+    }
+    
+    .quiz-title {
+        font-size: 1.5rem;
+    }
+    
+    .progress-info {
+        font-size: 1rem;
+    }
+    
+    .question-text {
+        font-size: 1.1rem;
+    }
+    
+    .score-text {
+        font-size: 1.5rem;
+    }
+    
+    .score-percentage {
+        font-size: 1.2rem;
+    }
+    
+    .review-question {
+        padding: 1rem;
+    }
+    
+    .upload-section {
+        padding: 1rem;
+    }
+    
+    .quiz-item {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 98%;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .question-text {
+        font-size: 1rem;
+    }
+    
+    .option {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
     }
 }
