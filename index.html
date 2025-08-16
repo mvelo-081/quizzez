@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,4 +68,75 @@
 
     <script src="script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZEZ</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">QUIZZEZ</h1>
+            <p class="subtitle">Test Your Knowledge with Interactive Quizzes</p>
+        </div>
+
+        <!-- Quiz Selection Section -->
+        <div id="quiz-selection" class="upload-section">
+            <h3 style="color: #1976D2; margin-bottom: 1rem;">Select a Quiz</h3>
+            <div id="quiz-list">
+                <p style="color: #666; margin: 20px 0;">Loading available quizzes...</p>
+            </div>
+            <div id="load-info" class="file-info" style="display: none;">
+                <p>✅ Quiz loaded successfully!</p>
+                <button id="start-quiz-btn" class="btn btn-primary" style="margin-top: 1rem;">Start Quiz</button>
+            </div>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz-section" class="quiz-section">
+            <div class="quiz-header">
+                <h2 id="quiz-title" class="quiz-title"></h2>
+                <p id="progress-info" class="progress-info"></p>
+            </div>
+
+            <div id="question-container" class="question-card">
+                <div id="question-text" class="question-text"></div>
+                <div id="options-container" class="options"></div>
+            </div>
+
+            <div class="quiz-controls">
+                <button id="prev-btn" class="btn btn-secondary">← Previous</button>
+                <div>
+                    <button id="show-answer-btn" class="btn btn-secondary" style="margin-right: 1rem;">Show Answer</button>
+                    <button id="next-btn" class="btn btn-primary">Next →</button>
+                    <button id="finish-btn" class="btn btn-success" style="display: none;">Finish Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results-section" class="results-section">
+            <div class="score-display">
+                <div id="score-text" class="score-text"></div>
+                <div id="score-percentage" class="score-percentage"></div>
+            </div>
+            
+            <button id="review-answers-btn" class="btn btn-primary" style="margin-right: 1rem;">Review Answers</button>
+            <button id="restart-btn" class="btn btn-secondary">Start New Quiz</button>
+            
+            <div id="review-section" class="review-section" style="display: none;">
+                <h3 style="color: #1976D2; margin-bottom: 1rem;">📝 Answer Review</h3>
+                <div id="review-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+>>>>>>> d38dbcf464e6d9d1278acfae6bdc4c310db01450
 </html>
