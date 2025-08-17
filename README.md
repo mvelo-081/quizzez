@@ -73,26 +73,26 @@ quizzez/
 
 ## 📖 Adding a New Quiz
 
-To create a new quiz:
+- To create a new quiz:
 
-Go to the quizzes/ folder.
+- Go to the quizzes/ folder.
 
-Create a new JSON file, e.g., python.json.
+- Create a new JSON file, e.g., python.json.
 
-Follow this structure:
+- Follow this structure:
 
-[
-  {
-    "question": "What is Python?",
-    "options": ["Snake", "Programming Language", "Food", "Car"],
-    "answer": 1
-  },
-  {
-    "question": "Who created Python?",
-    "options": ["Guido van Rossum", "James Gosling", "Dennis Ritchie", "Linus Torvalds"],
-    "answer": 3
-  }
-]
+   [
+     {
+       "question": "What is Python?",
+       "options": ["Snake", "Programming Language", "Food", "Car"],
+       "answer": 1
+     },
+     {
+       "question": "Who created Python?",
+       "options": ["Guido van Rossum", "James Gosling", "Dennis Ritchie", "Linus Torvalds"],
+       "answer": 3
+     }
+   ]
 
 
-Update script.js or menu code to load your new quiz.
+- Update script.js or menu code to load your new quiz.
