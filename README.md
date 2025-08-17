@@ -26,11 +26,12 @@ The project is fully static and deployed with **GitHub Pages**.
 
 ## 📂 Project Structure
 
-quizzez/ 
+```text
+quizzez/
 │
-├── index.html 
-├── style.css 
-├── script.js 
+├── index.html
+├── style.css
+├── script.js
 │
 ├── assets/
 │   └── logo.png
@@ -39,6 +40,7 @@ quizzez/
 │   └── quiz1.json   # store quiz jsons
 │
 └── README.md
+```
 
 ---
 
