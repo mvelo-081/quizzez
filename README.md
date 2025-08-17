@@ -111,4 +111,6 @@ To run the project locally:
 
 ---
 
-## EXCLAMER - PARTIALLY VIDE CODED 🕺
+## EXCLAMER 
+- Partially vibe coded `50%`🕺
+- Quiz are extracted using AI , so there might exist errors in questions and answers
