@@ -16,16 +16,24 @@ class QuizApp {
                 'Quiz/intro_quiz.json',
             ],
             "Comp201 material": [
-                'Quiz/comp201_1.json',
-                'Quiz/comp201_2.json',
-                'Quiz/comp201_3.json',
-                'Quiz/comp201_4.json'
+                'Quiz/comp201/comp201_1.json',
+                'Quiz/comp201/comp201_2.json',
+                'Quiz/comp201/comp201_3.json',
+                'Quiz/comp201/comp201_4.json'
             ],
             "Comp102 material": [
-                'Quiz/comp102_1.json',
-                'Quiz/comp102_2.json',
-                'Quiz/comp102_3.json',
-                'Quiz/comp102_4.json',
+                'Quiz/comp102/comp102_1.json',
+                'Quiz/comp102/comp102_2.json',
+                'Quiz/comp102/comp102_3.json',
+                'Quiz/comp102/comp102_4.json',
+            ],
+            "istn212 material": [
+                'Quiz/istn212/istn212_1.json',
+                'Quiz/istn212/istn212_2.json',
+                'Quiz/istn212/istn212_3.json',
+                'Quiz/istn212/istn212_4.json',
+                'Quiz/istn212/istn212_5.json',
+                'Quiz/istn212/istn212_6.json'
             ]
         };
         
@@ -684,7 +692,7 @@ class QuizApp {
         question.options.forEach((option, index) => {
             const optionElement = document.createElement('div');
             optionElement.className = 'option';
-            optionElement.textContent = option;
+            optionElement.innerHTML = option;
             optionElement.addEventListener('click', () => this.selectOption(index));
             
             // Show previous selection

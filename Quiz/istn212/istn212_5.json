@@ -1,0 +1,205 @@
+{
+    "title": "Chapter 3: Sql quiz 1",
+    "questions": [
+      {
+        "question": "Which SQL clause is used to filter rows in a SELECT statement?",
+        "options": [
+          "GROUP BY",
+          "ORDER BY",
+          "WHERE",
+          "HAVING"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does the acronym SQL stand for?",
+        "options": [
+          "Structured Query Language",
+          "Simple Question Language",
+          "Standard Query Logic",
+          "System Query Link"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which SQL command is used to insert new data into a table?",
+        "options": [
+          "ADD RECORD",
+          "INSERT INTO",
+          "CREATE ROW",
+          "NEW DATA"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the purpose of the GROUP BY clause?",
+        "options": [
+          "To sort the result set",
+          "To group rows that have the same values",
+          "To filter groups",
+          "To join tables together"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which operator is used to combine multiple conditions in a WHERE clause?",
+        "options": [
+          "COMBINE",
+          "AND",
+          "PLUS",
+          "WITH"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the JOIN keyword do in SQL?",
+        "options": [
+          "Combines rows from two or more tables",
+          "Creates a new table",
+          "Links databases together",
+          "Merges columns in a table"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which SQL function counts the number of rows?",
+        "options": [
+          "TOTAL()",
+          "SUM()",
+          "COUNT()",
+          "NUMBER()"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct SQL statement to select all columns from a table named 'Customers'?",
+        "options": [
+          "GET * FROM Customers",
+          "SELECT ALL FROM Customers",
+          "SELECT * FROM Customers",
+          "EXTRACT * FROM Customers"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which SQL command modifies existing data in a table?",
+        "options": [
+          "CHANGE",
+          "MODIFY",
+          "UPDATE",
+          "ALTER"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a primary key?",
+        "options": [
+          "A key that opens the database",
+          "A unique identifier for each row in a table",
+          "The first column in every table",
+          "An encrypted password"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which SQL clause is used to sort the result set?",
+        "options": [
+          "SORT BY",
+          "ARRANGE BY",
+          "ORDER BY",
+          "GROUP BY"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does the DELETE statement do?",
+        "options": [
+          "Removes a table from the database",
+          "Deletes specific rows from a table",
+          "Erases an entire database",
+          "Removes columns from a table"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which type of JOIN returns all rows from both tables?",
+        "options": [
+          "INNER JOIN",
+          "FULL OUTER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the purpose of the HAVING clause?",
+        "options": [
+          "To filter groups after GROUP BY",
+          "To select which columns to display",
+          "To filter rows before grouping",
+          "To join tables conditionally"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which SQL command creates a new table?",
+        "options": [
+          "ADD TABLE",
+          "CREATE TABLE",
+          "NEW TABLE",
+          "MAKE TABLE"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the ALTER TABLE statement do?",
+        "options": [
+          "Changes the structure of a table",
+          "Modifies data in a table",
+          "Switches between tables",
+          "Deletes a table temporarily"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which wildcard character represents any sequence of characters in SQL?",
+        "options": [
+          "#",
+          "*",
+          "%",
+          "?"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the purpose of an index in SQL?",
+        "options": [
+          "To display the table of contents",
+          "To speed up data retrieval",
+          "To encrypt data",
+          "To link tables together"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which SQL constraint ensures all values in a column are unique?",
+        "options": [
+          "DISTINCT",
+          "UNIQUE",
+          "PRIMARY KEY",
+          "IDENTITY"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the COMMIT statement do?",
+        "options": [
+          "Saves changes to the database",
+          "Deletes temporary tables",
+          "Exits SQL",
+          "Creates a backup"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }

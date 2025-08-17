@@ -1,0 +1,205 @@
+{
+    "title": "Chapter 1: quiz 3",
+    "questions": [
+      {
+        "question": "What characteristic makes data 'ubiquitous' in modern systems?",
+        "options": [
+          "It's only available to administrators",
+          "It's abundant, global, and found everywhere",
+          "It's encrypted by default",
+          "It's stored in physical filing cabinets"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database function ensures quick answers to unplanned queries?",
+        "options": [
+          "Data archiving",
+          "Ad hoc query processing",
+          "Hardware maintenance",
+          "User interface design"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In file systems, what happened when customer data needed to be updated across multiple departments?",
+        "options": [
+          "Automatic synchronization occurred",
+          "Each department's file had to be updated separately",
+          "The data became read-only",
+          "Cloud services automatically merged changes"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What fundamental database concept does metadata enable?",
+        "options": [
+          "Data redundancy",
+          "Data independence",
+          "Manual data entry",
+          "Paper-based record keeping"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database type would Amazon DynamoDB typically represent?",
+        "options": [
+          "Relational database",
+          "Key-value store",
+          "Data warehouse",
+          "Desktop database"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What critical database system component is shown between end users and the database in architectural diagrams?",
+        "options": [
+          "Web browser",
+          "DBMS",
+          "Operating system",
+          "Power supply"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which file system problem required extensive programming to modify file structures?",
+        "options": [
+          "Data visualization",
+          "Structural dependence",
+          "Cloud integration",
+          "Automatic indexing"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What database advantage directly supports better organizational decision making?",
+        "options": [
+          "Slower data retrieval",
+          "Generation of accurate, timely information",
+          "Higher hardware costs",
+          "Limited data sharing"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database professional would most likely work with machine learning algorithms?",
+        "options": [
+          "Database Administrator",
+          "Data Scientist",
+          "Database Designer",
+          "System Administrator"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What happens when a database achieves structural independence?",
+        "options": [
+          "File structures can't be changed",
+          "Changes to structure don't affect applications",
+          "All data must be reprocessed",
+          "The database becomes read-only"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database type is specifically optimized for decision support?",
+        "options": [
+          "Operational database",
+          "Transaction database",
+          "Analytical database",
+          "Personal database"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What database system component manages multiuser access control?",
+        "options": [
+          "Storage hardware",
+          "DBMS software",
+          "User workstations",
+          "Network routers"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which problem occurs when deleting vital data while removing unnecessary information?",
+        "options": [
+          "Insertion anomaly",
+          "Deletion anomaly",
+          "Update anomaly",
+          "Redundancy anomaly"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What was the primary purpose of early computerized file systems?",
+        "options": [
+          "Artificial intelligence",
+          "Track data and produce required reports",
+          "Replace all paper documents",
+          "Enable internet commerce"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database technology represents data elements in textual format?",
+        "options": [
+          "SQL",
+          "XML",
+          "JPEG",
+          "MP3"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What database system disadvantage relates to vendor-specific features?",
+        "options": [
+          "Increased security",
+          "Vendor dependence",
+          "Better performance",
+          "Simpler interfaces"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which database function maintains definitions of data elements?",
+        "options": [
+          "Data dictionary management",
+          "Network configuration",
+          "User training",
+          "Hardware maintenance"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What type of database would a university use for student enrollment records?",
+        "options": [
+          "Analytical database",
+          "Operational database",
+          "Data warehouse",
+          "Test database"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which concept describes different versions of the same data in separate files?",
+        "options": [
+          "Data normalization",
+          "Islands of information",
+          "Query optimization",
+          "Structural independence"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What database capability addresses recovery after system failures?",
+        "options": [
+          "Backup management",
+          "Data entry forms",
+          "User interfaces",
+          "Report generation"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }

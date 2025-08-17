@@ -1,0 +1,205 @@
+{
+    "title": "Chapter 3: Sql quiz 2 - Basic SQL Queries",
+    "questions": [
+      {
+        "question": "Given this 'Employees' table:\n<pre>| ID | Name   | Department | Salary |\n|----|--------|------------|--------|\n| 1  | Alice  | HR         | 50000  |\n| 2  | Bob    | IT         | 60000  |\n| 3  | Carol  | HR         | 55000  |</pre>\nHow would you select all employees from the HR department?",
+        "options": [
+          "<pre><code type=\"SQL\">GET * FROM Employees WHERE Department = 'HR'</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Employees WHERE Department = 'HR'</code></pre>",
+          "<pre><code type=\"SQL\">FILTER Employees BY Department = 'HR'</code></pre>",
+          "<pre><code type=\"SQL\">DISPLAY HR Employees FROM Employees</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Products' table:\n<pre>| ProductID | Name      | Price | Stock |\n|-----------|-----------|-------|-------|\n| 101       | Laptop    | 999   | 15    |\n| 102       | Mouse     | 25    | 100   |\n| 103       | Keyboard  | 45    | 75    |</pre>\nHow would you find products with less than 50 in stock?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Products HAVING Stock < 50</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Products WHERE Stock < 50</code></pre>",
+          "<pre><code type=\"SQL\">EXTRACT * FROM Products IF Stock < 50</code></pre>",
+          "<pre><code type=\"SQL\">SHOW Products WITH Stock UNDER 50</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Orders' table:\n<pre>| OrderID | CustomerID | Amount | Date       |\n|---------|------------|--------|------------|\n| 1001    | 5          | 150.00 | 2023-01-15 |\n| 1002    | 3          | 200.00 | 2023-01-16 |\n| 1003    | 5          | 75.50  | 2023-01-17 |</pre>\nHow would you find the total amount spent by customer 5?",
+        "options": [
+          "<pre><code type=\"SQL\">SUM(Amount) FROM Orders WHERE CustomerID = 5</code></pre>",
+          "<pre><code type=\"SQL\">SELECT SUM(Amount) FROM Orders WHERE CustomerID = 5</code></pre>",
+          "<pre><code type=\"SQL\">TOTAL Amount FOR CustomerID = 5 IN Orders</code></pre>",
+          "<pre><code type=\"SQL\">CALCULATE Amount SUM WHERE CustomerID = 5</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given these tables:\nCustomers:\n<pre>| CustomerID | Name    |\n|------------|---------|\n| 1          | Alice   |\n| 2          | Bob     |\n| 3          | Carol   |</pre>\nOrders:\n<pre>| OrderID | CustomerID | Amount |\n|---------|------------|--------|\n| 101     | 1          | 100.00 |\n| 102     | 2          | 200.00 |\n| 103     | 1          | 150.00 |</pre>\nHow would you find all customers who have placed orders?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT Name FROM Customers <br>INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID</code></pre>",
+          "<pre><code type=\"SQL\">SHOW Customers WITH Orders</code></pre>",
+          "<pre><code type=\"SQL\">SELECT DISTINCT c.Name FROM Customers c, Orders o <br>WHERE c.CustomerID = o.CustomerID</code></pre>",
+          "<pre><code type=\"SQL\">GET Customers WHO HAVE Orders</code></pre>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Given this 'Students' table:\n<pre>| StudentID | Name   | GPA  |\n|-----------|--------|------|\n| 1         | Alice  | 3.5  |\n| 2         | Bob    | 3.2  |\n| 3         | Carol  | 3.8  |</pre>\nHow would you find the student with the highest GPA?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Students ORDER BY GPA DESC LIMIT 1</code></pre>",
+          "<pre><code type=\"SQL\">SELECT MAX(GPA) FROM Students</code></pre>",
+          "<pre><code type=\"SQL\">TOP 1 Student BY GPA FROM Students</code></pre>",
+          "<pre><code type=\"SQL\">FIND Student WITH MAX GPA IN Students</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Products' table:\n<pre>| ProductID | Name      | Category | Price |\n|-----------|-----------|----------|-------|\n| 101       | Laptop    | Tech     | 999   |\n| 102       | Mouse     | Tech     | 25    |\n| 103       | Notebook  | Office   | 5     |</pre>\nHow would you count products in each category?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT Category, COUNT(*) FROM Products GROUP BY Category</code></pre>",
+          "<pre><code type=\"SQL\">COUNT Products BY Category</code></pre>",
+          "<pre><code type=\"SQL\">SELECT Category, SUM(ProductID) FROM Products</code></pre>",
+          "<pre><code type=\"SQL\">GROUP Products BY Category SHOW COUNT</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Employees' table:\n<pre>| ID | Name   | Salary | HireDate   |\n|----|--------|--------|------------|\n| 1  | Alice  | 50000  | 2020-01-15 |\n| 2  | Bob    | 60000  | 2019-05-20 |\n| 3  | Carol  | 55000  | 2021-03-10 |</pre>\nHow would you find employees hired after January 1, 2020?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Employees WHERE HireDate > '2020-01-01'</code></pre>",
+          "<pre><code type=\"SQL\">FILTER Employees BY HireDate AFTER 2020-01-01</code></pre>",
+          "<pre><code type=\"SQL\">GET Employees HIRED AFTER 2020-01-01</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Employees HAVING HireDate > '2020-01-01'</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Sales' table:\n<pre>| SaleID | ProductID | Quantity | SaleDate   |\n|--------|-----------|----------|------------|\n| 1001   | 101       | 2        | 2023-01-15 |\n| 1002   | 102       | 5        | 2023-01-16 |\n| 1003   | 101       | 1        | 2023-01-17 |</pre>\nHow would you calculate total quantity sold for each product?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT ProductID, AVG(Quantity) FROM Sales</code></pre>",
+          "<pre><code type=\"SQL\">SELECT ProductID, SUM(Quantity) FROM Sales GROUP BY ProductID</code></pre>",
+          "<pre><code type=\"SQL\">TOTAL Quantity PER ProductID IN Sales</code></pre>",
+          "<pre><code type=\"SQL\">SUM Quantity BY ProductID FROM Sales</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given these tables:\nEmployees:\n<pre>| EmpID | Name   | DeptID |\n|-------|--------|--------|\n| 1     | Alice  | 10     |\n| 2     | Bob    | 20     |\n| 3     | Carol  | 10     |</pre>\nDepartments:\n<pre>| DeptID | DeptName |\n|--------|----------|\n| 10     | HR       |\n| 20     | IT       |</pre>\nHow would you list all employees with their department names?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT e.Name, d.DeptName <br>FROM Employees e JOIN Departments d ON e.DeptID = d.DeptID</code></pre>",
+          "<pre><code type=\"SQL\">COMBINE Employees AND Departments BY DeptID</code></pre>",
+          "<pre><code type=\"SQL\">LINK Employees.Name TO Departments.DeptName USING DeptID</code></pre>",
+          "<pre><code type=\"SQL\">MATCH Employees WITH Departments ON DeptID</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Customers' table:\n<pre>| CustomerID | Name   | City        |\n|------------|--------|-------------|\n| 1          | Alice  | New York    |\n| 2          | Bob    | Los Angeles |\n| 3          | Carol  | Chicago     |</pre>\nHow would you find customers not from Chicago?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Customers WHERE City != 'Chicago'</code></pre>",
+          "<pre><code type=\"SQL\">FILTER Customers WHERE City NOT 'Chicago'</code></pre>",
+          "<pre><code type=\"SQL\">EXCLUDE Customers FROM Chicago</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Customers HAVING City <> 'Chicago'</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Products' table:\n<pre>| ProductID | Name      | Price | Category |\n|-----------|-----------|-------|----------|\n| 101       | Laptop    | 999   | Tech     |\n| 102       | Mouse     | 25    | Tech     |\n| 103       | Notebook  | 5     | Office   |</pre>\nHow would you find the average price for Tech products?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT MEAN(Price) FROM Products WHERE Category = 'Tech'</code></pre>",
+          "<pre><code type=\"SQL\">CALCULATE AVG Price FOR Tech Products</code></pre>",
+          "<pre><code type=\"SQL\">SELECT AVG(Price) FROM Products WHERE Category = 'Tech'</code></pre>",
+          "<pre><code type=\"SQL\">AVERAGE Price OF Tech IN Products</code></pre>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Given this 'Orders' table:\n<pre>| OrderID | CustomerID | Amount | OrderDate  |\n|---------|------------|--------|------------|\n| 1001    | 5          | 150.00 | 2023-01-15 |\n| 1002    | 3          | 200.00 | 2023-01-16 |\n| 1003    | 5          | 75.50  | 2023-01-17 |</pre>\nHow would you find orders between January 15 and January 16, 2023?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Orders <br>WHERE OrderDate BETWEEN '2023-01-15' AND '2023-01-16'</code></pre>",
+          "<pre><code type=\"SQL\">FILTER Orders FROM 2023-01-15 TO 2023-01-16</code></pre>",
+          "<pre><code type=\"SQL\">GET Orders DATED 2023-01-15 THRU 2023-01-16</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Orders <br>WHERE OrderDate >= '2023-01-15' OR OrderDate <= '2023-01-16'</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Students' table:\n<pre>| StudentID | Name   | GPA  | Major     |\n|-----------|--------|------|-----------|\n| 1         | Alice  | 3.5  | Biology   |\n| 2         | Bob    | 3.2  | Chemistry |\n| 3         | Carol  | 3.8  | Biology   |</pre>\nHow would you find the number of students in each major?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT Major, COUNT(*) FROM Students GROUP BY Major</code></pre>",
+          "<pre><code type=\"SQL\">COUNT Students PER Major</code></pre>",
+          "<pre><code type=\"SQL\">SELECT Major, SUM(StudentID) FROM Students</code></pre>",
+          "<pre><code type=\"SQL\">GROUP Students BY Major SHOW COUNT</code></pre>"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Given this 'Employees' table:\n<pre>| ID | Name   | Salary | Department |\n|----|--------|--------|------------|\n| 1  | Alice  | 50000  | HR         |\n| 2  | Bob    | 60000  | IT         |\n| 3  | Carol  | 55000  | HR         |</pre>\nHow would you find departments with average salary over 52000?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT Department FROM Employees WHERE AVG(Salary) > 52000</code></pre>",
+          "<pre><code type=\"SQL\">SELECT Department, AVG(Salary) FROM Employees <br>GROUP BY Department HAVING AVG(Salary) > 52000</code></pre>",
+          "<pre><code type=\"SQL\">FILTER Departments BY AVG Salary > 52000</code></pre>",
+          "<pre><code type=\"SQL\">SHOW Departments WHERE MEAN Salary > 52000</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Products' table:\n<pre>| ProductID | Name      | Price | Stock |\n|-----------|-----------|-------|-------|\n| 101       | Laptop    | 999   | 15    |\n| 102       | Mouse     | 25    | 100   |\n| 103       | Keyboard  | 45    | 75    |</pre>\nHow would you update the price of Laptop to 1099?",
+        "options": [
+          "<pre><code type=\"SQL\">MODIFY Products SET Price = 1099 WHERE Name = 'Laptop'</code></pre>",
+          "<pre><code type=\"SQL\">UPDATE Products SET Price = 1099 WHERE Name = 'Laptop'</code></pre>",
+          "<pre><code type=\"SQL\">CHANGE Price TO 1099 FOR Laptop IN Products</code></pre>",
+          "<pre><code type=\"SQL\">ALTER Products SET Price = 1099 FOR Name = 'Laptop'</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Customers' table:\n<pre>| CustomerID | Name   | Email               |\n|------------|--------|---------------------|\n| 1          | Alice  | alice@example.com   |\n| 2          | Bob    | bob@example.com     |\n| 3          | Carol  | carol@example.com   |</pre>\nHow would you add a new customer named 'Dave' with email 'dave@example.com'?",
+        "options": [
+          "<pre><code type=\"SQL\">ADD INTO Customers VALUES (4, 'Dave', 'dave@example.com')</code></pre>",
+          "<pre><code type=\"SQL\">INSERT INTO Customers (CustomerID, Name, Email) <br>VALUES (4, 'Dave', 'dave@example.com')</code></pre>",
+          "<pre><code type=\"SQL\">CREATE Customer (4, 'Dave', 'dave@example.com') IN Customers</code></pre>",
+          "<pre><code type=\"SQL\">NEW RECORD IN Customers (4, 'Dave', 'dave@example.com')</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Orders' table:\n<pre>| OrderID | CustomerID | Amount |\n|---------|------------|--------|\n| 1001    | 5          | 150.00 |\n| 1002    | 3          | 200.00 |\n| 1003    | 5          | 75.50  |</pre>\nHow would you delete order 1002?",
+        "options": [
+          "<pre><code type=\"SQL\">REMOVE FROM Orders WHERE OrderID = 1002</code></pre>",
+          "<pre><code type=\"SQL\">DELETE FROM Orders WHERE OrderID = 1002</code></pre>",
+          "<pre><code type=\"SQL\">ERASE Order 1002 FROM Orders</code></pre>",
+          "<pre><code type=\"SQL\">DROP RECORD WHERE OrderID = 1002 IN Orders</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Employees' table:\n<pre>| ID | Name   | Salary |\n|----|--------|--------|\n| 1  | Alice  | 50000  |\n| 2  | Bob    | 60000  |\n| 3  | Carol  | 55000  |</pre>\nHow would you add a 'Bonus' column to the table?",
+        "options": [
+          "<pre><code type=\"SQL\">INSERT COLUMN Bonus INTO Employees</code></pre>",
+          "<pre><code type=\"SQL\">ALTER TABLE Employees ADD COLUMN Bonus DECIMAL(10,2)</code></pre>",
+          "<pre><code type=\"SQL\">MODIFY Employees TO ADD Bonus</code></pre>",
+          "<pre><code type=\"SQL\">UPDATE Employees SET Bonus = NULL</code></pre>"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Given this 'Products' table:\n<pre>| ProductID | Name      | Price |\n|-----------|-----------|-------|\n| 101       | Laptop    | 999   |\n| 102       | Mouse     | 25    |\n| 103       | Keyboard  | 45    |</pre>\nHow would you find the second most expensive product?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT * FROM Products ORDER BY Price DESC OFFSET 1 LIMIT 1</code></pre>",
+          "<pre><code type=\"SQL\">GET SECOND HIGHEST Price FROM Products</code></pre>",
+          "<pre><code type=\"SQL\">SELECT * FROM Products WHERE Price = (SELECT MAX(Price) <br>FROM Products WHERE Price < (SELECT MAX(Price) FROM Products))</code></pre>",
+          "<pre><code type=\"SQL\">FIND Product WITH SECOND HIGHEST Price</code></pre>"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Given these tables:\nStudents:\n<pre>| StudentID | Name   |\n|-----------|--------|\n| 1         | Alice  |\n| 2         | Bob    |\n| 3         | Carol  |</pre>\nCourses:\n<pre>| CourseID | Name          |\n|----------|---------------|\n| 101      | Biology       |\n| 102      | Chemistry     |\n| 103      | Physics       |</pre>\nEnrollments:\n<pre>| StudentID | CourseID |\n|-----------|----------|\n| 1         | 101      |\n| 1         | 102      |\n| 2         | 101      |</pre>\nHow would you find students enrolled in Biology?",
+        "options": [
+          "<pre><code type=\"SQL\">SELECT s.Name FROM Students s <br>JOIN Enrollments e ON s.StudentID = e.StudentID <br>JOIN Courses c ON e.CourseID = c.CourseID WHERE c.Name = 'Biology'</code></pre>",
+          "<pre><code type=\"SQL\">GET Students IN Biology</code></pre>",
+          "<pre><code type=\"SQL\">FIND Students TAKING Biology</code></pre>",
+          "<pre><code type=\"SQL\">MATCH Students WITH Biology IN Courses</code></pre>"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }

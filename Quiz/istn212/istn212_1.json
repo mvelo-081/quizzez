@@ -1,0 +1,205 @@
+{
+    "title": "Chapter 1: quiz 1",
+    "questions": [
+      {
+        "question": "What is the key difference between data and information?",
+        "options": [
+          "There is no difference",
+          "Data is raw facts, while information is processed data with meaning",
+          "Data is stored in databases, while information is stored in files",
+          "Data is processed, while information is raw"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a database?",
+        "options": [
+          "A programming language for data analysis",
+          "A shared, integrated computer structure that stores end-user data and metadata",
+          "A spreadsheet used for calculations",
+          "A collection of unrelated files"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the primary role of a DBMS?",
+        "options": [
+          "To perform arithmetic calculations",
+          "To create graphical user interfaces",
+          "To act as an intermediary between users and the database, managing data access and structure",
+          "To replace all file systems"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is metadata?",
+        "options": [
+          "Redundant copies of data",
+          "A type of unstructured data",
+          "Data about data, describing its characteristics and relationships",
+          "Data stored in the cloud"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a problem with file system data processing?",
+        "options": [
+          "Built-in security protocols",
+          "Data redundancy and inconsistency",
+          "Automatic query optimization",
+          "Structural independence"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a potential consequence of uncontrolled data redundancy?",
+        "options": [
+          "Data inconsistency and integrity problems",
+          "Faster query performance",
+          "Improved data security",
+          "Reduced storage costs"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What does structural dependence mean in file systems?",
+        "options": [
+          "Programs must be modified if the file structure changes",
+          "Files can only store numeric data",
+          "Data access is independent of file structure",
+          "Data is always encrypted"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is an advantage of a DBMS over file systems?",
+        "options": [
+          "No need for metadata",
+          "Longer development times",
+          "Higher data redundancy",
+          "Improved data sharing and security"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is a single-user database?",
+        "options": [
+          "A cloud-based database",
+          "A database with no security",
+          "A database that supports only one user at a time",
+          "A database that supports multiple users simultaneously"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a cloud database?",
+        "options": [
+          "A type of NoSQL database",
+          "A database stored on a local server",
+          "A database created and maintained using cloud data services",
+          "A database that only stores weather data"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is an operational database designed for?",
+        "options": [
+          "Replacing all file systems",
+          "Supporting a company's day-to-day operations",
+          "Storing historical data for analysis",
+          "Storing only metadata"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is data independence?",
+        "options": [
+          "Data storage changes require program modifications",
+          "Programs are unaffected by changes in data storage characteristics",
+          "Data can only be accessed sequentially",
+          "Each program owns its data files"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does DBMS stand for?",
+        "options": [
+          "Data Backup Management System",
+          "Database Manipulation Software",
+          "Database Management System",
+          "Digital Business Management Service"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which component of a database system enforces user security?",
+        "options": [
+          "Hardware",
+          "Operating System",
+          "DBMS",
+          "Application Programs"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is SQL primarily used for?",
+        "options": [
+          "Graphic design",
+          "Database queries and data manipulation",
+          "Creating spreadsheets",
+          "Writing operating systems"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a data warehouse typically used for?",
+        "options": [
+          "Day-to-day transactions",
+          "Storing historical data for decision making",
+          "Replacing operational databases",
+          "Storing unstructured social media data"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which term describes storing the same data in multiple places?",
+        "options": [
+          "Data normalization",
+          "Data redundancy",
+          "Data independence",
+          "Data modeling"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is XML in database systems?",
+        "options": [
+          "A programming language",
+          "A hardware component",
+          "A way to represent data elements in textual format",
+          "A type of DBMS"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which database type would a small department likely use?",
+        "options": [
+          "Enterprise database",
+          "Workgroup database",
+          "Cloud database",
+          "Data warehouse"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a disadvantage of database systems?",
+        "options": [
+          "Reduced data sharing",
+          "Increased management complexity",
+          "Higher data redundancy",
+          "Slower query performance"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }

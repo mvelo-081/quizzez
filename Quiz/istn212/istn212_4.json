@@ -1,0 +1,205 @@
+{
+    "title": "Chapter 3: quiz 1",
+    "questions": [
+      {
+        "question": "What is the logical construct used to represent data and its relationships in the relational database model?",
+        "options": [
+          "Entity",
+          "Relation (table)",
+          "Pointer",
+          "Index"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of a relational table?",
+        "options": [
+          "Each row represents a single entity occurrence.",
+          "Columns must have the same data format for all values.",
+          "The order of rows and columns is critical to the DBMS.",
+          "Each table must have a unique identifier for each row."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the term for an attribute whose value determines another attribute?",
+        "options": [
+          "Dependent",
+          "Determinant",
+          "Foreign key",
+          "Secondary key"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which key type is defined as a minimal superkey?",
+        "options": [
+          "Composite key",
+          "Candidate key",
+          "Foreign key",
+          "Secondary key"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What rule ensures that no primary key attribute can be null?",
+        "options": [
+          "Referential integrity",
+          "Entity integrity",
+          "Domain integrity",
+          "Functional dependence"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which relational operator yields a horizontal subset of a table?",
+        "options": [
+          "Project",
+          "Select",
+          "Union",
+          "Join"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What type of join returns only matched records from the tables being joined?",
+        "options": [
+          "Natural join",
+          "Outer join",
+          "Inner join",
+          "Theta join"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How is a many-to-many (M:N) relationship typically implemented in a relational database?",
+        "options": [
+          "By using a composite entity",
+          "By merging the two tables",
+          "By creating a recursive relationship",
+          "By ignoring the relationship"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the purpose of an index in a relational database?",
+        "options": [
+          "To enforce referential integrity",
+          "To provide a logical view of data",
+          "To speed up data retrieval",
+          "To reduce data redundancy"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which component contains metadata about all objects in the database?",
+        "options": [
+          "Data dictionary",
+          "System catalog",
+          "Foreign key",
+          "Primary key"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the term 'closure' refer to in relational algebra?",
+        "options": [
+          "A table being permanently locked",
+          "Operations on relations producing new relations",
+          "The end of a transaction",
+          "A database being shut down"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following best describes functional dependence?",
+        "options": [
+          "A relationship between two tables",
+          "An attribute determining another attribute's value",
+          "A constraint on null values",
+          "A type of join operation"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a foreign key?",
+        "options": [
+          "A key that is used strictly for data retrieval",
+          "A primary key from one table placed into another table",
+          "A key that can contain null values",
+          "A minimal superkey"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which relational set operator yields all possible pairs of rows from two tables?",
+        "options": [
+          "Intersect",
+          "Difference",
+          "Product",
+          "Divide"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What problem does data redundancy cause in a database?",
+        "options": [
+          "Improved data security",
+          "Data inconsistency",
+          "Faster query performance",
+          "Simpler database design"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of Codd's rules states that all information must be represented as column values in rows?",
+        "options": [
+          "Guaranteed access",
+          "Information rule",
+          "Comprehensive data sublanguage",
+          "Nonsubversion"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the term for different names describing the same attribute?",
+        "options": [
+          "Homonym",
+          "Synonym",
+          "Determinant",
+          "Domain"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which type of relationship is most common in relational databases?",
+        "options": [
+          "One-to-one (1:1)",
+          "One-to-many (1:M)",
+          "Many-to-many (M:N)",
+          "Recursive"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the notation A → B signify in functional dependence?",
+        "options": [
+          "A is equal to B",
+          "A determines B",
+          "B is a subset of A",
+          "A and B are foreign keys"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which integrity rule requires that every foreign key value must match a primary key value or be null?",
+        "options": [
+          "Entity integrity",
+          "Referential integrity",
+          "Domain integrity",
+          "Functional integrity"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
