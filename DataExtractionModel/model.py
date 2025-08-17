@@ -4,9 +4,9 @@ import pdfplumber
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 # ----------------------------- CONFIG -----------------------------
-FOLDER_PATH = "C:\\Users\\mvelo\\OneDrive\\Desktop\\QUIZZEZ\\DataExtractionModel\\pdf_files"  # Folder containing PDFs
-OUTPUT_FOLDER = "C:\\Users\\mvelo\\OneDrive\\Desktop\\QUIZZEZ\\Quiz"                # Where JSON files will be saved
-MODEL_NAME = "google/flan-t5-small"    # Hugging Face model
+FOLDER_PATH = "DataExtractionModel\\pdf_files"  
+OUTPUT_FOLDER = ".\\Quiz"               
+MODEL_NAME = "google/flan-t5-small"    
 # ------------------------------------------------------------------
 
 # Load Hugging Face model pipeline
