@@ -8,7 +8,7 @@ The project is fully static and deployed with **GitHub Pages**.
 
 ## 🌍 Live Demo
 
-🔗 [QUIZZEZ on GitHub Pages](https://mvelo-081.github.io/quizzez/)
+🔗 [View 🔥](https://mvelo-081.github.io/quizzez/)
 
 ---
 
@@ -26,17 +26,17 @@ The project is fully static and deployed with **GitHub Pages**.
 
 ## 📂 Project Structure
 
-quizzez/ \n
+quizzez/ 
 │
 ├── index.html 
 ├── style.css 
 ├── script.js 
 │
 ├── assets/
-│ └── quiz1.json # store quiz jsons
+│   └── logo.png
 │
 ├── Quiz/
-│ └── quiz1.json # store quiz jsons
+│   └── quiz1.json   # store quiz jsons
 │
 └── README.md
 
