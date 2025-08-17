@@ -1,55 +1,55 @@
 {
-    "title": "Java Arrays Quiz - Open-Ended 1",
+    "title": "Java Arrays Quiz - Open-ended 1",
     "questions": [
       {
         "question": "Write a Java program to create a 1D array of 5 integers and initialize it with values 1, 2, 3, 4, 5.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to print all elements of an array named 'arr' using a standard for-loop.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to calculate and print the sum of all elements in an array 'nums'.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to reverse a 1D array 'arr' without using additional arrays.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to find the largest and smallest element in an array 'arr'.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to create a 2D array 3x3 and initialize it with values 1 to 9.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to print the transpose of a 2D array 'matrix'.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to calculate the sum of each row and each column in a 2D array 'matrix'.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to rotate a 2D array 'matrix' 90 degrees clockwise.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       },
       {
         "question": "Write a Java program to multiply two matrices 'A' and 'B' and store the result in a new 2D array 'C'.",
-        "options": ["Open-ended"],
-        "correctAnswer": -1
+        "options": ["Completed", "Not Completed", "Partially Completed"],
+        "correctAnswer": 1
       }
     ]
   }
