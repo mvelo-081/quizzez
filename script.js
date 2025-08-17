@@ -443,7 +443,8 @@ class QuizApp {
         document.getElementById('prev-btn').addEventListener('click', () => this.previousQuestion());
         document.getElementById('next-btn').addEventListener('click', () => this.nextQuestion());
         document.getElementById('finish-btn').addEventListener('click', () => this.finishQuiz());
-        document.getElementById('show-answer-btn').addEventListener('click', () => this.toggleAnswer());
+        // unhighlight if you want to able answer toggle
+        // document.getElementById('show-answer-btn').addEventListener('click', () => this.toggleAnswer()); 
         document.getElementById('review-answers-btn').addEventListener('click', () => this.showReview());
         document.getElementById('restart-btn').addEventListener('click', () => this.restartQuiz());
     }
