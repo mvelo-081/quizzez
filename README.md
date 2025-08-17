@@ -14,13 +14,13 @@ The project is fully static and deployed with **GitHub Pages**.
 
 ## ✨ Features
 
-- 📚 **Multiple Quizzes** – Supports different subjects/topics.
-- 🧠 **Question Navigation** – Answer questions one by one.
-- ✅ **Answer Checking** – Immediate feedback on answers.
-- 📊 **Progress Tracking** – Shows how far along you are in a quiz.
-- 🔄 **Retry Options** – Restart completed quizzes anytime.
-- 📝 **Review Mode** – See correct answers after finishing.
-- 💻 **Offline Support** – Works locally without a server.
+- **Multiple Quizzes** – Supports different subjects/topics.
+- **Question Navigation** – Answer questions one by one.
+- **Answer Checking** – Immediate feedback on answers.
+- **Progress Tracking** – Shows how far along you are in a quiz.
+- **Retry Options** – Restart completed quizzes anytime.
+- **Review Mode** – See correct answers after finishing.
+- **Offline Support** – Works locally without a server (but must clone the repo).
 
 ---
 
@@ -56,7 +56,7 @@ quizzez/
      {
        "question": "What is JVM in Java?",
        "options": ["Java Virtual Machine", "Java Vendor Model", "Joint Variable Method", "None of the above"],
-       "answer": "Java Virtual Machine"
+       "answer": 3
      }
      ```
 
@@ -76,13 +76,9 @@ quizzez/
 ## 📖 Adding a New Quiz
 
 - To create a new quiz:
-
 - Go to the quizzes/ folder.
-
 - Create a new JSON file, e.g., python.json.
-
 - Follow this structure:
-
 ```text
    [
      {
@@ -97,5 +93,6 @@ quizzez/
      }
    ]
 ```
-
 - Update script.js or menu code to load your new quiz.
+
+## EXCLAMER - PARTIALLY VIDE CODED 🕺
