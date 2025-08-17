@@ -1,0 +1,30 @@
+{
+    "title": "Basic quiz 1",
+    "questions": [
+      {
+        "question": "what is your name",
+        "options": ["Mvelo", "Sindiswa", "Ndumiso", "Minenhle", "Kwanele", "Anele"],
+        "correctAnswer": 1
+      },
+        {
+            "question": "what is your surname",
+            "options": ["Khumalo", "Galo", "Hlatshiwayo", "Vikwa", "Shelembe", "Ngubane"],
+            "correctAnswer": 2
+        },
+        {
+            "question": "what is your age",
+            "options": ["20", "19", "18", "21", "17"],
+            "correctAnswer": 3
+        },
+        {
+            "question": "what is your favourite colour",
+            "options": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+            "correctAnswer": 4
+        },
+        {
+            "question": "what is your favourite food",
+            "options": ["Pizza", "Burger", "Pasta", "Salad", "Sushi", "Steak"],
+            "correctAnswer": 5
+        }
+    ]
+  }

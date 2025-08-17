@@ -1,30 +1,55 @@
 {
-    "title": "Basic quiz 1",
-    "questions": [
-      {
-        "question": "what is your name",
-        "options": ["Mvelo", "Sindiswa", "Ndumiso", "Minenhle", "Kwanele", "Anele"],
-        "correctAnswer": 1
-      },
-        {
-            "question": "what is your surname",
-            "options": ["Khumalo", "Galo", "Hlatshiwayo", "Vikwa", "Shelembe", "Ngubane"],
-            "correctAnswer": 2
-        },
-        {
-            "question": "what is your age",
-            "options": ["20", "19", "18", "21", "17"],
-            "correctAnswer": 3
-        },
-        {
-            "question": "what is your favourite colour",
-            "options": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
-            "correctAnswer": 4
-        },
-        {
-            "question": "what is your favourite food",
-            "options": ["Pizza", "Burger", "Pasta", "Salad", "Sushi", "Steak"],
-            "correctAnswer": 5
-        }
-    ]
-  }
+  "title": "Java Arrays Quiz - 1",
+  "questions": [
+    {
+      "question": "What will happen if you try to access an index that is out of bounds in a Java array?",
+      "options": ["It returns null", "It throws ArrayIndexOutOfBoundsException", "It returns 0", "It prints an error and continues"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which of the following correctly declares a 2D array in Java?",
+      "options": ["int[][] arr = new int[3][3];", "int arr[][] = new int[3];", "int arr[3][3];", "int[] arr = new int[3][3];"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "What does the following code display?<br><br><pre><code class=\"language-java\">int[] nums = {5, 10, 15};<br>System.out.println(nums.length);</code></pre>",
+      "options": ["2", "3", "0", "Throws an error"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "How can you copy one array to another in Java without using loops?",
+      "options": ["Arrays.copy()", "Arrays.clone()", "System.arraycopy()", "Array.copyOf()"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does this code output?<br><br><pre><code class=\"language-java\">int[] arr = new int[3];<br>arr[0] = 1;<br>arr[1] = 2;<br>arr[2] = 3;<br>for(int i=0; i&lt;arr.length; i++) {<br>&nbsp;&nbsp;arr[i] += i;<br>}<br>System.out.println(arr[2]);</code></pre>",
+      "options": ["3", "4", "5", "Throws an error"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the default value of elements in a newly created int array in Java?",
+      "options": ["null", "0", "-1", "Undefined"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which statement is true about arrays in Java?",
+      "options": ["Arrays are dynamic in size", "Arrays are objects", "Arrays can store different types in the same array", "Arrays cannot be passed to methods"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What happens if you try to assign an array of doubles to an array of ints?",
+      "options": ["It works if values are integers", "It throws a compile-time error", "It converts automatically", "It throws a runtime exception"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does this code display?<br><br><pre><code class=\"language-java\">int[][] matrix = {{1,2},{3,4}};<br>System.out.println(matrix[1][0]);</code></pre>",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which method can be used to sort an array in Java?",
+      "options": ["Arrays.order()", "Arrays.sort()", "Collections.sort()", "Arrays.sorted()"],
+      "correctAnswer": 1
+    }
+  ]
+}

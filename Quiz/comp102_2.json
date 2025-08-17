@@ -1,0 +1,56 @@
+{
+    "title": "Java Arrays Quiz - 2",
+    "questions": [
+      {
+        "question": "What happens if you try to access a negative index in a Java array?<br><br><pre><code class=\"language-java\">int[] arr = {1,2,3};<br>System.out.println(arr[-1]);</code></pre>",
+        "options": ["It prints the last element", "It throws ArrayIndexOutOfBoundsException", "It prints 0", "It prints null"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does this code print?<br><br><pre><code class=\"language-java\">int[][] arr = new int[2][];<br>arr[0] = new int[]{1,2};<br>arr[1] = new int[]{3,4,5};<br>System.out.println(arr[1][2]);</code></pre>",
+        "options": ["4", "5", "Throws an error", "3"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of this code?<br><br><pre><code class=\"language-java\">int[] a = {1,2,3};<br>int[] b = a;<br>b[0] = 99;<br>System.out.println(a[0]);</code></pre>",
+        "options": ["1", "99", "0", "Throws an error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which statement is valid in Java for initializing an array inline?",
+        "options": ["int[] arr = {1, 2, 3};", "int arr[] = new int[]{1, 2, 3};", "int[] arr = new int[3]{1,2,3};", "Both 1 and 2"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does this code display?<br><br><pre><code class=\"language-java\">int[] nums = new int[5];<br>for(int i=0; i&lt;nums.length; i++) {<br>&nbsp;&nbsp;nums[i] = i * i;<br>}<br>System.out.println(nums[3]);</code></pre>",
+        "options": ["6", "9", "3", "0"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is true about a jagged array in Java?",
+        "options": ["All rows must have the same number of columns", "Each row can have a different number of columns", "It cannot be initialized inline", "It automatically fills missing elements with -1"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will happen if you try to store a primitive int in an Object array without boxing?<br><br><pre><code class=\"language-java\">Object[] arr = new Object[3];<br>arr[0] = 5;<br>System.out.println(arr[0]);</code></pre>",
+        "options": ["It throws a compile-time error", "It works due to autoboxing", "It prints null", "It prints 0"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does this multi-dimensional loop print?<br><br><pre><code class=\"language-java\">int[][] matrix = {{1,2},{3,4}};<br>for(int i=0;i&lt;matrix.length;i++){<br>&nbsp;&nbsp;for(int j=0;j&lt;matrix[i].length;j++){<br>&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(matrix[j][i]);<br>&nbsp;&nbsp;}<br>}</code></pre>",
+        "options": ["1234", "1324", "Throws ArrayIndexOutOfBoundsException", "1243"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which method correctly fills an array with the same value?",
+        "options": ["Arrays.fill(arr, 5);", "Collections.fill(arr, 5);", "arr.fill(5);", "Arrays.setAll(arr, 5);"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What happens when you try to pass an array to a method and modify it inside the method?<br><br><pre><code class=\"language-java\">void modify(int[] arr){<br>&nbsp;&nbsp;arr[0] = 100;<br>}<br>int[] nums = {1,2,3};<br>modify(nums);<br>System.out.println(nums[0]);</code></pre>",
+        "options": ["Prints 1", "Prints 100", "Throws an error", "Prints 0"],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  
