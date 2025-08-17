@@ -95,4 +95,19 @@ quizzez/
 ```
 - Update script.js or menu code to load your new quiz.
 
+---
+
+##  Installation (Local Setup)
+
+To run the project locally:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/mvelo-081/quizzez.git
+    cd quizzez
+    ```
+
+2. Then run the index.html using Live server (if you are using VS code)
+
+
 ## EXCLAMER - PARTIALLY VIDE CODED 🕺
