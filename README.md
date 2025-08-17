@@ -76,11 +76,11 @@ quizzez/
 ## 📖 Adding a New Quiz
 
 - To create a new quiz:
-- Go to the quizzes/ folder.
+- Go to the `Quiz/` folder.
 - Create a new JSON file, e.g., python.json.
 - Follow this structure:
 ```text
-   [
+   "Python quiz 1" : [
      {
        "question": "What is Python?",
        "options": ["Snake", "Programming Language", "Food", "Car"],
@@ -109,5 +109,6 @@ To run the project locally:
 
 2. Then run the index.html using Live server (if you are using VS code)
 
+---
 
 ## EXCLAMER - PARTIALLY VIDE CODED 🕺
