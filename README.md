@@ -49,8 +49,8 @@ quizzez/
 1. **Homepage (`index.html`)**  
    - Displays the landing page with options like **Start Quiz**, **Continue Quiz**, and **Review Answers**.
 
-2. **Quiz Data (`/Quiz/`)**  
-   - Quizzes are stored as JSON files (or embedded inside JS).  
+2. **Quiz Data (`Quiz/`)**  
+   - Quizzes are stored as JSON files.  
    - Each quiz has:
      ```json
      {
