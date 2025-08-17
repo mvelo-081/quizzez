@@ -16,13 +16,39 @@
 
         <!-- Quiz Selection Section -->
         <div id="quiz-selection" class="upload-section">
-            <h3 style="color: #1976D2; margin-bottom: 1rem;">Select a Quiz</h3>
-            <div id="quiz-list">
-                <p style="color: #666; margin: 20px 0;">Loading available quizzes...</p>
+            <!-- Tab Navigation -->
+            <div class="tabs">
+                <button class="tab-button active" data-tab="available">Available Quizzes</button>
+                <button class="tab-button" data-tab="attempts">Saved Attempts</button>
+                <button class="tab-button" data-tab="completed">Completed Quizzes</button>
             </div>
-            <div id="load-info" class="file-info" style="display: none;">
-                <p>✅ Quiz loaded successfully!</p>
-                <button id="start-quiz-btn" class="btn btn-primary" style="margin-top: 1rem;">Start Quiz</button>
+
+            <!-- Available Quizzes Tab -->
+            <div id="available-tab" class="tab-content active">
+                <h3 style="color: #1976D2; margin-bottom: 1rem;">Select a Quiz</h3>
+                <div id="quiz-list">
+                    <p style="color: #666; margin: 20px 0;">Loading available quizzes...</p>
+                </div>
+                <div id="load-info" class="file-info" style="display: none;">
+                    <p>✅ Quiz loaded successfully!</p>
+                    <button id="start-quiz-btn" class="btn btn-primary" style="margin-top: 1rem;">Start Quiz</button>
+                </div>
+            </div>
+
+            <!-- Saved Attempts Tab -->
+            <div id="attempts-tab" class="tab-content">
+                <h3 style="color: #1976D2; margin-bottom: 1rem;">🔄 Continue Quiz</h3>
+                <div id="saved-attempts">
+                    <p style="color: #666; margin: 20px 0;">No saved attempts found</p>
+                </div>
+            </div>
+
+            <!-- Completed Quizzes Tab -->
+            <div id="completed-tab" class="tab-content">
+                <h3 style="color: #1976D2; margin-bottom: 1rem;">📊 Completed Quizzes</h3>
+                <div id="completed-quizzes">
+                    <p style="color: #666; margin: 20px 0;">No completed quizzes found</p>
+                </div>
             </div>
         </div>
 
@@ -64,7 +90,6 @@
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
