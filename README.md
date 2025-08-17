@@ -83,6 +83,7 @@ quizzez/
 
 - Follow this structure:
 
+```text
    [
      {
        "question": "What is Python?",
@@ -95,6 +96,6 @@ quizzez/
        "answer": 3
      }
    ]
-
+```
 
 - Update script.js or menu code to load your new quiz.
