@@ -26,7 +26,7 @@ The project is fully static and deployed with **GitHub Pages**.
 
 ## 📂 Project Structure
 
-quizzez/
+quizzez/ \n
 │
 ├── index.html 
 ├── style.css 
