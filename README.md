@@ -114,3 +114,4 @@ To run the project locally:
 ## EXCLAMER 
 - Partially vibe coded `50%`🕺
 - Quiz are extracted using AI , so there might exist errors in questions and answers
+- On mobile devices, I recommend that you use desktop mode on your browser (It is not fully optimised for mobile devices)
