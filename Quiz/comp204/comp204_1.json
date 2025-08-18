@@ -1,0 +1,545 @@
+{
+    "title": "Mock test 1 : model 1",
+    "questions": [
+      {
+        "question": "Which key concept distinguishes Von Neumann architecture?",
+        "options": [
+          "Separate instruction and data memory",
+          "Data/instructions stored in single read-write memory",
+          "Hardwired control logic",
+          "Analog computation elements"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does ALU stand for in computer architecture?",
+        "options": [
+          "Arithmetic Logic Unit",
+          "Address Location Unit",
+          "Algorithmic Loading Unit",
+          "Asynchronous Logic Unit"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which numbering system uses base-16 representation?",
+        "options": [
+          "Binary",
+          "Decimal",
+          "Hexadecimal",
+          "Octal"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "In Boolean algebra, what operation yields true only when both inputs are true?",
+        "options": [
+          "OR",
+          "XOR",
+          "NAND",
+          "AND"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the primary purpose of cache memory?",
+        "options": [
+          "Permanent data storage",
+          "Speed up memory access via temporal locality",
+          "Execute arithmetic operations",
+          "Manage I/O peripheral communication"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component holds the address for the next memory read/write operation?",
+        "options": [
+          "Program Counter (PC)",
+          "Instruction Register (IR)",
+          "Memory Address Register (MAR)",
+          "Accumulator (AC)"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is overflow in twos complement addition?",
+        "options": [
+          "Result exceeding register size",
+          "Adding two positives yields negative",
+          "Carry-out from sign bit",
+          "Division by zero error"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which IEEE 754 component stores the exponent in biased form?",
+        "options": [
+          "Significand",
+          "Radix point",
+          "Trailing significand field",
+          "Biased exponent field"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does DMA stand for in I/O operations?",
+        "options": [
+          "Direct Memory Access",
+          "Dynamic Module Allocation",
+          "Data Movement Arbitration",
+          "Dual Multiplexed Addressing"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which bus type carries command and timing signals?",
+        "options": [
+          "Data Bus",
+          "Address Bus",
+          "Control Bus",
+          "System Bus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does PCIe use for packetized data transfer?",
+        "options": [
+          "Von Neumann packets",
+          "Transaction Layer Packets (TLP)",
+          "DMA containers",
+          "QPI flits"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which computer generation first used integrated circuits?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is Moore's Law primarily concerned with?",
+        "options": [
+          "Memory access speed",
+          "Transistor density doubling",
+          "Clock frequency scaling",
+          "Power consumption reduction"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In floating-point representation, what makes a number 'normal'?",
+        "options": [
+          "Exponent is zero",
+          "Significand MSB is 1",
+          "Biased exponent is all 1s",
+          "Fraction has leading zeros"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component orchestrates instruction execution?",
+        "options": [
+          "ALU",
+          "Control Unit",
+          "Cache",
+          "System Bus"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the binary equivalent of hexadecimal 'C'?",
+        "options": [
+          "1100",
+          "1010",
+          "1101",
+          "1110"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which adder configuration uses carry lookahead for speed?",
+        "options": [
+          "Ripple-carry adder",
+          "Carry-save adder",
+          "Booth's adder",
+          "Kogge-Stone adder"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does QPI use for error detection in flits?",
+        "options": [
+          "Parity bit",
+          "Checksum",
+          "Cyclic Redundancy Check (CRC)",
+          "Hamming code"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which flip-flop has 'no change' when J=0, K=0?",
+        "options": [
+          "D flip-flop",
+          "T flip-flop",
+          "S-R latch",
+          "J-K flip-flop"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the key advantage of multicore processors?",
+        "options": [
+          "Higher clock frequency",
+          "Reduced power per computation",
+          "Simpler instruction decoding",
+          "Larger monolithic cache"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which instruction cycle state checks for interrupts?",
+        "options": [
+          "Operand fetch",
+          "Execute instruction",
+          "Instruction decode",
+          "Interrupt check"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is sign extension in twos complement?",
+        "options": [
+          "Adding sign bit to value",
+          "Replicating sign bit when expanding",
+          "Inverting MSB during negation",
+          "Zero-padding positive numbers"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which FPGA component stores configuration bits?",
+        "options": [
+          "CLB",
+          "Lookup Table (LUT)",
+          "Switch matrix",
+          "I/O block"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the purpose of guard bits in floating-point?",
+        "options": [
+          "Prevent exponent overflow",
+          "Maintain precision during alignment",
+          "Detect division by zero",
+          "Signal denormalized results"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component interfaces between CPU and peripherals?",
+        "options": [
+          "Northbridge",
+          "DMA controller",
+          "I/O module",
+          "TLB"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "In Karnaugh maps, what does a 'don't care' condition allow?",
+        "options": [
+          "Reduced power consumption",
+          "Simpler logic implementations",
+          "Higher clock frequencies",
+          "Larger memory addressing"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does NaN represent in IEEE 754?",
+        "options": [
+          "Negative Absolute Number",
+          "Not a Number",
+          "Normalized Arithmetic Notation",
+          "Negative Asymptotic Normal"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which bus arbitration method uses centralized control?",
+        "options": [
+          "Token passing",
+          "Distributed contention",
+          "Daisy chaining",
+          "Collision detection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the primary function of a multiplexer?",
+        "options": [
+          "Convert parallel to serial data",
+          "Select one of many input lines",
+          "Decode memory addresses",
+          "Perform arithmetic operations"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which counter type changes all flip-flops simultaneously?",
+        "options": [
+          "Asynchronous ripple counter",
+          "Synchronous counter",
+          "Johnson counter",
+          "Ring counter"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Convert binary 1101 to decimal:",
+        "options": [
+          "11",
+          "13",
+          "15",
+          "17"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What characterizes a sequential circuit?",
+        "options": [
+          "Output depends only on current inputs",
+          "Contains memory elements",
+          "Implements Boolean algebra directly",
+          "Always uses combinational logic"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which floating-point rounding mode always increases magnitude?",
+        "options": [
+          "Round toward zero",
+          "Round to nearest even",
+          "Round toward +∞",
+          "Round toward -∞"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is Booth's algorithm used for?",
+        "options": [
+          "Floating-point division",
+          "Signed integer multiplication",
+          "Cache replacement",
+          "Bus arbitration"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component stores the fetched instruction?",
+        "options": [
+          "Memory Buffer Register (MBR)",
+          "Instruction Register (IR)",
+          "Program Counter (PC)",
+          "Accumulator (AC)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In hexadecimal, what comes after 7F?",
+        "options": [
+          "80",
+          "8G",
+          "7G",
+          "80h"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the range of 8-bit two's complement?",
+        "options": [
+          "0 to 255",
+          "-127 to 128",
+          "-128 to 127",
+          "-256 to 255"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which operation produces quiet NaN in IEEE 754?",
+        "options": [
+          "5 + 5",
+          "∞ + ∞",
+          "0 × ∞",
+          "10 / 2"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What makes subnormal numbers special?",
+        "options": [
+          "Higher precision than normal numbers",
+          "Fill gap between zero and smallest normal",
+          "Represent infinity more accurately",
+          "Optimize integer operations"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which gate implements the complement operation?",
+        "options": [
+          "AND",
+          "OR",
+          "NOT",
+          "XOR"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does PLA stand for in digital logic?",
+        "options": [
+          "Programmed Logic Array",
+          "Parallel Load Architecture",
+          "Programmable Logic Array",
+          "Pipelined Logic Adder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which technique reduces Karnaugh map groups?",
+        "options": [
+          "Maxterm expansion",
+          "Quine-McCluskey algorithm",
+          "Booth encoding",
+          "Hamming distance"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the function of a decoder?",
+        "options": [
+          "Select inputs from multiple sources",
+          "Convert coded inputs to distinct outputs",
+          "Store temporary computational results",
+          "Perform arithmetic operations"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In PCIe, what is the Transaction Layer responsible for?",
+        "options": [
+          "Electrical signaling",
+          "Packet routing between devices",
+          "Error detection in flits",
+          "Creating request packets"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which interrupt type is generated by I/O controllers?",
+        "options": [
+          "Program",
+          "Timer",
+          "I/O",
+          "Hardware failure"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Convert decimal 42 to binary:",
+        "options": [
+          "101010",
+          "110100",
+          "101101",
+          "111000"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is DeMorgan's Theorem used for?",
+        "options": [
+          "Simplify AND-OR expressions",
+          "Design sequential circuits",
+          "Implement floating-point division",
+          "Handle bus contention"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which component increments instruction addresses?",
+        "options": [
+          "Accumulator",
+          "Memory Buffer Register",
+          "Program Counter",
+          "Instruction Decoder"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does the term 'radix point' refer to?",
+        "options": [
+          "Exponent in floating-point",
+          "Binary equivalent of decimal point",
+          "Base of number system",
+          "Fixed-point scaling factor"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which is NOT a floating-point special value?",
+        "options": [
+          "Normalized zero",
+          "Denormalized",
+          "NaN",
+          "QNaN"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "In Boolean algebra, what does A + AB simplify to?",
+        "options": [
+          "B",
+          "AB",
+          "A",
+          "A + B"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the primary benefit of QPI over traditional buses?",
+        "options": [
+          "Higher voltage tolerance",
+          "Point-to-point connections",
+          "Analog signal support",
+          "Reduced component count"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which register holds intermediate arithmetic results?",
+        "options": [
+          "Instruction Register",
+          "Memory Address Register",
+          "Accumulator",
+          "Program Counter"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does a full adder require that a half adder doesn't?",
+        "options": [
+          "XOR gate",
+          "Carry-in input",
+          "AND gate",
+          "Sum output"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }

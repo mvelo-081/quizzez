@@ -1,0 +1,565 @@
+{
+    "title": "Mock test 1 : model 2",
+    "questions": [
+      {
+        "question": "In hexadecimal notation, what is the decimal value of 2C₁₆?",
+        "options": [
+          "34",
+          "42",
+          "44",
+          "52"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which component generates control signals for instruction execution?",
+        "options": [
+          "Arithmetic Logic Unit (ALU)",
+          "Memory Buffer Register (MBR)",
+          "Control Unit",
+          "System Interconnection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the primary advantage of two's complement representation?",
+        "options": [
+          "Simpler negation process",
+          "Two representations of zero",
+          "No need for sign extension",
+          "Same addition circuit for positive and negative numbers"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "In Boolean algebra, what does DeMorgan's theorem state?",
+        "options": [
+          "A + A = A",
+          "A • (B + C) = A•B + A•C",
+          "A + B = Ā • B̄",
+          "A • 0 = 0"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which IEEE 754 component represents the fractional part of a number?",
+        "options": [
+          "Biased exponent",
+          "Sign bit",
+          "Trailing significand",
+          "Radix point"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the purpose of the Memory Buffer Register (MBR)?",
+        "options": [
+          "Store instruction addresses",
+          "Hold data for memory read/write operations",
+          "Control I/O device timing",
+          "Manage cache coherence"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which Karnaugh map grouping corresponds to the term ĀC?",
+        "options": [
+          "Two horizontal cells in row A=0",
+          "Four corner cells",
+          "Two vertical cells in column C=1",
+          "Four center cells"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What distinguishes a complex PLD (CPLD) from an FPGA?",
+        "options": [
+          "CPLDs have wider logic resources",
+          "FPGAs use only NOR gates",
+          "CPLDs support analog computation",
+          "FPGAs have lower flip-flop density"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "In Booth's algorithm, what does the sequence '1-0' indicate?",
+        "options": [
+          "Add multiplicand",
+          "Subtract multiplicand",
+          "Shift only",
+          "End of multiplication"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which floating-point operation requires significand alignment?",
+        "options": [
+          "Multiplication",
+          "Division",
+          "Addition",
+          "Square root"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the function of the I/O Address Register (I/OAR)?",
+        "options": [
+          "Store data from peripherals",
+          "Specify which I/O device to access",
+          "Hold interrupt vectors",
+          "Control DMA operations"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Convert binary 1001.101 to decimal:",
+        "options": [
+          "9.5",
+          "9.625",
+          "10.125",
+          "10.5"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which bus width determines maximum addressable memory?",
+        "options": [
+          "Data bus",
+          "Control bus",
+          "Address bus",
+          "System bus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What occurs during the execute phase of the instruction cycle?",
+        "options": [
+          "PC increments to next instruction",
+          "Instruction decoded into control signals",
+          "ALU performs required operation",
+          "Check for interrupt requests"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which is NOT a characteristic of RISC architecture?",
+        "options": [
+          "Large instruction set",
+          "Fixed-length instructions",
+          "Load/store architecture",
+          "Single-cycle execution"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "In a 4-bit binary counter, what state follows 1111?",
+        "options": [
+          "0000",
+          "1110",
+          "1000",
+          "0111"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What makes a sequential circuit different from a combinational circuit?",
+        "options": [
+          "Uses only NAND gates",
+          "Output depends on previous states",
+          "Faster execution speed",
+          "No Boolean algebra implementation"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component holds the fetched instruction?",
+        "options": [
+          "Program Counter (PC)",
+          "Instruction Register (IR)",
+          "Accumulator (AC)",
+          "Memory Address Register (MAR)"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the normalized form of 0.110 × 2⁵ in IEEE 754?",
+        "options": [
+          "1.10 × 2⁴",
+          "110 × 2²",
+          "0.0110 × 2⁶",
+          "11.0 × 2³"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which technique prevents bus contention?",
+        "options": [
+          "Sign extension",
+          "Bus arbitration",
+          "Carry lookahead",
+          "Karnaugh mapping"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the XOR operation yield when inputs differ?",
+        "options": [
+          "0",
+          "1",
+          "Same as first input",
+          "Complement of second input"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which generation introduced transistor-based computers?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the primary purpose of cache levels (L1, L2, L3)?",
+        "options": [
+          "Increase memory capacity",
+          "Balance speed and size tradeoffs",
+          "Simplify instruction decoding",
+          "Provide non-volatile storage"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In PCIe architecture, what is the function of the root complex?",
+        "options": [
+          "Connect CPU to memory",
+          "Route packets between endpoints",
+          "Perform CRC error checking",
+          "Generate clock signals"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Convert decimal 0.6875 to binary:",
+        "options": [
+          "0.1011",
+          "0.1101",
+          "0.1110",
+          "0.1010"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the overflow rule for two's complement addition?",
+        "options": [
+          "Carry into sign bit ≠ carry out",
+          "Sign bits differ",
+          "Result has leading zeros",
+          "Both operands negative"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which flip-flop type has a single data input?",
+        "options": [
+          "S-R",
+          "J-K",
+          "D",
+          "T"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does QPI's multilane distribution achieve?",
+        "options": [
+          "Lower voltage requirements",
+          "Higher data throughput",
+          "Reduced component count",
+          "Analog signal compatibility"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which Boolean law states A + (B • C) = (A + B) • (A + C)?",
+        "options": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the range of an 8-bit sign-magnitude integer?",
+        "options": [
+          "-128 to 127",
+          "-127 to 127",
+          "0 to 255",
+          "-255 to 255"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which component interfaces between system bus and peripherals?",
+        "options": [
+          "Northbridge",
+          "I/O module",
+          "Cache controller",
+          "Instruction decoder"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the binary representation of decimal -9 in 5-bit two's complement?",
+        "options": [
+          "10111",
+          "11001",
+          "10110",
+          "11000"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "In a multiplexer, what determines which input is selected?",
+        "options": [
+          "Data lines",
+          "Control signals",
+          "Clock frequency",
+          "Power supply"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which IEEE 754 format uses 11 exponent bits?",
+        "options": [
+          "binary32",
+          "binary64",
+          "binary128",
+          "decimal64"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What occurs during a non-maskable interrupt?",
+        "options": [
+          "Processor ignores the request",
+          "Current instruction completes before handling",
+          "Immediate processing with highest priority",
+          "Only user-mode programs are interrupted"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which adder configuration is shown in a ripple-carry adder?",
+        "options": [
+          "Parallel full adders",
+          "Carry lookahead between stages",
+          "Booth-encoded addition",
+          "Sequential half-adders"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the hexadecimal equivalent of binary 11010110?",
+        "options": [
+          "D6",
+          "B5",
+          "E7",
+          "C4"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "In floating-point, what does a biased exponent of all 1s indicate?",
+        "options": [
+          "Zero value",
+          "Normal number",
+          "Subnormal number",
+          "Infinity or NaN"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the primary function of a decoder circuit?",
+        "options": [
+          "Select between multiple inputs",
+          "Activate one output line based on input code",
+          "Perform arithmetic operations",
+          "Store program instructions"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which transistor property enabled Moore's Law?",
+        "options": [
+          "Increasing size",
+          "Decreasing power consumption",
+          "Shrinking feature size",
+          "Higher voltage tolerance"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the result of 7 × (-3) using Booth's algorithm?",
+        "options": [
+          "-21",
+          "21",
+          "-24",
+          "24"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which component connects CPU registers to the ALU?",
+        "options": [
+          "System bus",
+          "CPU interconnection",
+          "Control unit",
+          "Memory controller"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Karnaugh maps, what does grouping eight 1s eliminate?",
+        "options": [
+          "Two variables",
+          "Three variables",
+          "Four variables",
+          "All variables"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the primary advantage of point-to-point interconnects?",
+        "options": [
+          "Lower latency",
+          "Higher voltage",
+          "Shared bandwidth",
+          "Simpler protocol"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which register tracks program execution flow?",
+        "options": [
+          "Accumulator",
+          "Instruction Register",
+          "Program Counter",
+          "Memory Buffer Register"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does a NAND gate implement?",
+        "options": [
+          "A • B",
+          "A + B",
+          "Ā • B̄",
+          "A + B"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which IEEE 754 rounding mode always rounds toward zero?",
+        "options": [
+          "Round to nearest even",
+          "Round toward +∞",
+          "Round toward -∞",
+          "Round toward zero"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the function of the radix point in number systems?",
+        "options": [
+          "Separate exponent from significand",
+          "Distinguish positive and negative numbers",
+          "Separate integer and fractional parts",
+          "Indicate overflow conditions"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which component performs the fetch-decode-execute cycle?",
+        "options": [
+          "ALU",
+          "Control Unit",
+          "Cache Memory",
+          "I/O Controller"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the two's complement representation of -42 in 8 bits?",
+        "options": [
+          "11010110",
+          "10101010",
+          "11010101",
+          "10101011"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which FPGA component provides reconfigurable logic?",
+        "options": [
+          "I/O Block",
+          "Switch Matrix",
+          "Configurable Logic Block (CLB)",
+          "Clock Manager"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the decimal value of hexadecimal A3?",
+        "options": [
+          "153",
+          "163",
+          "173",
+          "183"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which instruction type alters program flow?",
+        "options": [
+          "Data transfer",
+          "Arithmetic",
+          "Control",
+          "I/O"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does DMA allow?",
+        "options": [
+          "Direct CPU access to peripherals",
+          "Peripherals to access memory without CPU",
+          "Memory-to-memory transfers via CPU",
+          "Cache bypassing during computation"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Boolean algebra, what does A + 1 simplify to?",
+        "options": [
+          "A",
+          "1",
+          "0",
+          "Ā"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the smallest positive normalized number in binary32?",
+        "options": [
+          "2⁻¹²⁶",
+          "2⁻¹²⁷",
+          "2⁻¹⁴⁹",
+          "2⁻¹⁰²²"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }

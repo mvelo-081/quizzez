@@ -21,12 +21,6 @@ class QuizApp {
                 'Quiz/comp201/comp201_3.json',
                 'Quiz/comp201/comp201_4.json'
             ],
-            "Comp102 material": [
-                'Quiz/comp102/comp102_1.json',
-                'Quiz/comp102/comp102_2.json',
-                'Quiz/comp102/comp102_3.json',
-                'Quiz/comp102/comp102_4.json',
-            ],
             "istn212 material": [
                 'Quiz/istn212/istn212_1.json',
                 'Quiz/istn212/istn212_2.json',
@@ -34,7 +28,19 @@ class QuizApp {
                 'Quiz/istn212/istn212_4.json',
                 'Quiz/istn212/istn212_5.json',
                 'Quiz/istn212/istn212_6.json'
-            ]
+            ],
+            "Comp102 material": [
+                'Quiz/comp102/comp102_1.json',
+                'Quiz/comp102/comp102_2.json',
+                'Quiz/comp102/comp102_3.json',
+                'Quiz/comp102/comp102_4.json',
+            ],
+            "Comp204 material": [
+                'Quiz/comp204/comp204_1.json',
+                'Quiz/comp204/comp204_2.json',
+                'Quiz/comp204/comp204_3.json',
+                'Quiz/comp204/comp204_4.json',
+            ],
         };
         
         this.initializeEventListeners();
