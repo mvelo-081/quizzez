@@ -1,0 +1,206 @@
+{
+    "title": "quiz 4 : chapter 3",
+    "questions": [
+      {
+        "question": "Which of the following is correct about execution cycle of an instruction?",
+        "options": [
+          "Decode operation code (opcode), calculate operand address, fetch operand, execute operation, calculate address of operand and store operand",
+          "Fetch instruction, decode opcode, calculate operand address, fetch operand, execute operation, calculate address of operand and store operand",
+          "Read instruction, decode opcode, calculate operand address, fetch operand, execute operation, calculate address of operand and store operand",
+          "Decode operation code (opcode), calculate operand address, fetch operand, execute operation, calculate address of operand and display operand"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following are the layers of the QPI protocol architecture?",
+        "options": [
+          "Physical layer, link layer, routing layer, protocol layer",
+          "Physical layer, link layer, routing layer and virtual layer",
+          "Physical layer, link layer, network layer and protocol layer",
+          "Physical layer, link layer, runtime layer and protocol layer"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "The PCIe point-to-point interconnection structure stands for?",
+        "options": [
+          "Peripheral Component Interchange Express",
+          "Peripheral Component Intermediate Express",
+          "Peripheral Component Interconnect Express",
+          "Peripheral Component Interconnect Exchange"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the layers of the PCIe protocol architecture?",
+        "options": [
+          "Physical layer, control link and transmission",
+          "Physical layer, data link and transfer",
+          "Physical layer, data link and transmission",
+          "Physical layer, address link and transmission"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is incorrect about von Neumann architecture?",
+        "options": [
+          "Data and instructions are stored in a single read-write memory",
+          "Contents of memory are addressable by location",
+          "Data and instructions are stored in the central processing unit",
+          "Program execution is sequential"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is correct about an instruction cycle that includes an interrupt cycle?",
+        "options": [
+          "Processor fetches and execute an instruction, and processor checks to see if an interrupt has occurred",
+          "Processor fetches and execute an instruction, processor suspends the current program and processor checks to see if an interrupt has occurred",
+          "Processor fetches and execute an instruction, processor fetches the first instruction of the interrupt handler and processor resume the execution of the user program",
+          "Processor fetches and execute an instruction, processor fetches the first instruction of the interrupt handler and processor checks to see if an interrupt has occurred."
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Contemporary computer designs are based on one of the following architectures.",
+        "options": [
+          "Harvard architecture",
+          "von Neumann architecture",
+          "ARM architecture",
+          "PRISC architecture"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following represent the types of instructions executed by a computer?",
+        "options": [
+          "Data storage, data processing and control",
+          "Data transfer, data processing and data storage",
+          "Data transfer, data processing and storage",
+          "Data transfer, data processing and control"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is incorrect about the fetch cycle of an instruction execution?",
+        "options": [
+          "Program counter (PC) indicates the address of the next instruction to be fetched",
+          "Instruction is fetch and save into the instruction register (IR)",
+          "Instruction is fetched and saved into an I/O buffer",
+          "PC is incremented after instruction is fetched"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is not a reason why designers of computers replaced the bus interconnection structure with the point-to-point interconnection structure?",
+        "options": [
+          "Electrical constraints with increasing the frequency of wide synchronous buses",
+          "Difficult to timely synchronize and arbitrate the use of buses at higher data rates",
+          "Difficulty to increase bus data rate and reduce bus latency/delay in multicore chips, with multiple processors and significant memory on a single chip.",
+          "Reduced number of bus lines for transferring data at higher rate in multicore chips"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following defines the concept of direct memory access (DMA)?",
+        "options": [
+          "Processor grants to the operating system the authority to read from or write directly to memory.",
+          "Processor grants to a user program the authority to read from or write directly to memory.",
+          "Processor grants to an interrupt handler the authority to read from or write directly to memory.",
+          "Processor grants to an I/O module the authority to read from or write directly to memory."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following defines an interrupt?",
+        "options": [
+          "Mechanism used to stop the normal processing of the processor by modules such I/O and memory",
+          "Mechanism used to interrupt the normal processing of the processor by modules such I/O and memory",
+          "Mechanism used to suspend the normal processing of the processor by modules such I/O and memory",
+          "Mechanism used to start the normal processing of the processor by modules such I/O and memory"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a hardware interrupt?",
+        "options": [
+          "Attempt to execute an illegal machine instruction, or reference outside a user’s allowed memory space",
+          "Arithmetic overflow or division by zero",
+          "Power failure or memory parity error",
+          "Request by I/O controller to signal normal completion of an operation or a variety of error conditions."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the characteristics of the point-to-point interconnection structure?",
+        "options": [
+          "Multiple indirect transmission, layered protocol architecture, packetized data transfer",
+          "Multiple direct transmission, layered protocol architecture, packetized data transfer",
+          "Multiple direct transmission, stacked protocol architecture, packetized data transfer",
+          "Multiple direct transmission, layered protocol architecture, stacked data transfer"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following are the types of transfers supported by an interconnection structure?",
+        "options": [
+          "Processor to memory, memory to processor, processor to I/O, I/O to processor, I/O to or from memory",
+          "Processor to memory, memory to processor, register to processor, processor to register, processor to I/O, I/O to processor, I/O to or from memory",
+          "Processor to memory, memory to processor, processor to I/O, I/O to processor, I/O to or from memory, register to I/O, I/O to register",
+          "Processor to memory, memory to processor, processor to I/O, I/O to processor, I/O to or from memory, register to memory, memory to register"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following represents the way the processor deals with multiple interrupts?",
+        "options": [
+          "Disable interrupts while a program is being processed and define priorities for interrupts and to allow an interrupt of higher priority to cause a lower-priority interrupt handler to be itself interrupted",
+          "Disable interrupts while an interrupt is being processed and define priorities for programs and to allow a program of higher priority to cause a lower-priority program to be itself interrupted",
+          "Disable interrupts while an interrupt is being processed and define priorities for interrupts and to allow an interrupt of higher priority to cause a lower-priority interrupt handler to be itself interrupted",
+          "Disable interrupts while an interrupt is being processed and define priorities for interrupts and to prevent an interrupt of higher priority to cause a lower-priority interrupt handler to be itself interrupted"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the characteristics of the bus interconnection structure?",
+        "options": [
+          "Pathway connecting two or more devices, shared data transmission medium, multiple devices connect to the bus",
+          "Pathway connecting two devices, shared transmission medium, multiple devices connect to the bus",
+          "Pathway connecting two or more devices, shared transmission medium, multiple devices connect to the bus",
+          "Pathway connecting two or more devices, shared transmission medium, multiple CPU connect to the bus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the common classes of interrupts?",
+        "options": [
+          "Program, timer, memory and hardware",
+          "Program, timer, I/O and register",
+          "Program, timer, CPU and hardware",
+          "Program, timer, I/O and hardware"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following defines the steps of an instruction cycle?",
+        "options": [
+          "Fetch, decode and execution",
+          "Fetch and execution",
+          "Fetch, store, decode and execution",
+          "Fetch, decode, execution and storage"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following are the advantages of point-to-point interconnection structure?",
+        "options": [
+          "Low latency, higher data rate and better scalability",
+          "Higher latency, higher data rate and better scalability",
+          "Low latency, low data rate and better scalability",
+          "Low latency, higher data rate and reduced scalability"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
+  

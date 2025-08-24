@@ -1,0 +1,156 @@
+{
+    "title": "quiz 1 : chapter 1",
+    "questions": [
+      {
+        "question": "Which scientist observed that the number of transistors that could be put on a single chip was doubling every year, and correctly predicted that this pace would continue into the near future?",
+        "options": [
+          "John von Newman",
+          "Gordon Moore",
+          "Alan Turing",
+          "Federico Faggin"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the function of the instruction buffer register (IBR) of the IAS computer?",
+        "options": [
+          "Hold temporarily the left-hand instruction from a word in memory.",
+          "Hold temporarily the middle-hand instruction from a word in memory",
+          "Hold temporarily the bottom-hand instruction from a word in memory",
+          "Hold temporarily the right-hand instruction from a word in memory"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following happens during the execution cycle in the IAS computer?",
+        "options": [
+          "Decode opcode in MAR and execute instruction",
+          "Decode opcode in IBR and execute instruction",
+          "Decode opcode in MBR and execute instruction",
+          "Decode opcode in IR and execute instruction"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct definition of Computer Architecture",
+        "options": [
+          "Those attributes of computer that are accessible to the programmer and have direct impact on the execution of a program.",
+          "Those attributes of computer that are visible to the programmer and have indirect impact on the execution of a program.",
+          "Those attributes of computer that are visible to the programmer and have direct impact on the execution of a program.",
+          "Those attributes of computer that are accessible to the programmer and have indirect impact on the execution of a program."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a member of the 2nd generation of computers?",
+        "options": [
+          "IBM System/360",
+          "IAS computer",
+          "IBM 7094",
+          "DEC PDP-8"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the main components of a computer?",
+        "options": [
+          "CPU, cache memory, I/O and system bus",
+          "CPU, main memory, I/O and internal bus",
+          "CPU, main memory, I/O and system bus",
+          "ALU, main memory, I/O and system bus"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is incorrect about cache memories?",
+        "options": [
+          "Multiple layers of memory L1, L2, L3, etc. between processor and main memory",
+          "Smaller than the main memory",
+          "Use to slow memory access",
+          "L n is smaller and faster than L n+1"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following happens during the fetch cycle in the IAS computer?",
+        "options": [
+          "Transfer PC into MBR, transfer instruction at memory location MBR into MAR, load opcode into IR, load address portion of instruction into MAR, increment PC",
+          "Transfer PC into MAR, transfer instruction at memory location MAR into MBR, load opcode into IBR, load address portion of instruction into IR, increment PC",
+          "Transfer PC into MAR, transfer instruction at memory location MAR into MBR, load opcode into IR, load address portion of instruction into MAR, increment PC",
+          "Transfer MAR into PC, transfer instruction at memory location PC into MBR, load opcode into IR, load address portion of instruction into MAR, increment PC"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the function of the program counter (PC) register in CPU?",
+        "options": [
+          "Store the address of the previous instruction executed",
+          "Store the address of the current instruction being executed",
+          "Store the address of the next instruction to be executed",
+          "Store the address of the next operand to be transferred"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following are the basic functions of a computer?",
+        "options": [
+          "Data processing, data storage, data editing and control",
+          "Data processing, data storage, data communication and control",
+          "Data editing, data storage, data communication and control",
+          "Data processing, data editing, data updating and data control"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following list represent the chronological evolution of computer technologies?",
+        "options": [
+          "Vacuum tubes, transistors, integrated circuits, SMSI, LSI, VLSI, ULSI, semiconductor memory, microprocessors",
+          "Vacuum tubes, transistors, integrated circuits, microprocessors, SMSI, LSI, VLSI, ULSI, semiconductor memory",
+          "Transistors, Vacuum tubes, integrated circuits, SMSI, LSI, VLSI, ULSI, semiconductor memory, microprocessors",
+          "Vacuum tubes, transistors, integrated circuits, SMSI, LSI, VLSI, ULSI, semiconductor memory, microprocessors"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following represent families of computers?",
+        "options": [
+          "Intel x86, AMD x86, IBM System/370",
+          "Pentium, AMD x86, Atom",
+          "AMD x86, Intel x86, Athlon",
+          "Sempron, AMD x86, IBM System/370"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Chose the correct definition of Computer Organization",
+        "options": [
+          "Organizational units of computer and their interconnections that realize the architecture specifications.",
+          "Operational units of computer and their interconnections that create the architecture specifications.",
+          "Operational units of computer and their interconnections that realize the organization specifications.",
+          "Operational units of computer and their interconnections that realize the architecture specifications."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following are the main components of a processor/CPU?",
+        "options": [
+          "Control unit, ALU, registers, internal bus",
+          "Control unit, ALU, registers, system bus",
+          "Interrupt unit, ALU, registers, internal bus",
+          "Control unit, ALU, buffers, internal bus"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following are the types of instructions of the IAS computer?",
+        "options": [
+          "Data transfer, direct branch, conditional branch, arithmetic, address modify",
+          "Data transfer, unconditional branch, conditional branch, arithmetic, address modify",
+          "Data transfer, unconditional branch, indirect branch, arithmetic, address modify",
+          "Data transfer, unconditional branch, conditional branch, arithmetic, address transfer"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
+  
