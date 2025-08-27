@@ -1,8 +1,19 @@
 # QUIZZEZ
 
-🎯 **QUIZZEZ** is a browser-based quiz application built using **HTML, CSS, and JavaScript**.  
+🎯 **QUIZZEZ** is a browser based quiz application built using **HTML, CSS, and JavaScript**.  
 It allows users to take interactive quizzes, check their progress, and review their answers.  
 The project is fully static and deployed with **GitHub Pages**.
+
+---
+## 🕺 Inspiration
+
+I thought of this application when I was busy revising for a test using question paper
+which were multiple choice.This gave me a hard time to try and answer this questions with answers
+visible to my site. So I thought fo an application like this which I will be able to upload this 
+question, and make then quizzes , which are retakeable as many time as you like.
+Then this was whenthis application idea was born.
+This is not the final product, as time goes by, I will be adding new features that will be
+solving the problem I incounter in my everyday life.
 
 ---
 
@@ -20,7 +31,8 @@ The project is fully static and deployed with **GitHub Pages**.
 - **Progress Tracking** – Shows how far along you are in a quiz.
 - **Retry Options** – Restart completed quizzes anytime.
 - **Review Mode** – See correct answers after finishing.
-- **Offline Support** – Works locally without a server (but must clone the repo).
+- **Offline Support** – Works locally without a server
+- **Use of localStorage and sessionStorage** - Saves your progress with use of a database
 
 ---
 
@@ -80,7 +92,8 @@ quizzez/
 - Create a new JSON file, e.g., python.json.
 - Follow this structure:
 ```text
-   "Python quiz 1" : [
+   "Title": "General question quiz 1"
+   "Questions" : [
      {
        "question": "What is Python?",
        "options": ["Snake", "Programming Language", "Food", "Car"],
