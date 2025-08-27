@@ -124,6 +124,16 @@ To run the project locally:
 
 ---
 
+## incoming development
+
+- Able to solve coding problems in the web-appliction, and get feadback about your solution.
+- Able to answer long question, and have a model which will able to grade you with out being bias of the users solution,
+  and guide them further into understanding the tested concept.
+- I am busy with a research of implementing my our model with will be able to extract quiz question in any type format.
+  
+---
+
 ## EXCLAMER 
+
 - Quiz are extracted using AI , so there might exist errors in questions and answers
 - On mobile devices, I recommend that you use desktop mode on your browser (It is not fully optimised for mobile devices)
