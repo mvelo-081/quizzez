@@ -32,7 +32,7 @@ solving the problem I incounter in my everyday life.
 - **Retry Options** – Restart completed quizzes anytime.
 - **Review Mode** – See correct answers after finishing.
 - **Offline Support** – Works locally without a server
-- **Use of localStorage and sessionStorage** - Saves your progress with use of a database
+- **Use of localStorage and sessionStorage** - Saves your progress without the use of a database
 
 ---
 
