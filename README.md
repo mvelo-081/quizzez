@@ -65,11 +65,19 @@ quizzez/
    - Quizzes are stored as JSON files.  
    - Each quiz has:
      ```json
-     {
-       "question": "What is JVM in Java?",
-       "options": ["Java Virtual Machine", "Java Vendor Model", "Joint Variable Method", "None of the above"],
-       "answer": 3
-     }
+         "Title": "General question quiz 1"
+         "Questions" : [
+           {
+             "question": "What is Python?",
+             "options": ["Snake", "Programming Language", "Food", "Car"],
+             "answer": 1
+           },
+           {
+             "question": "Who created Python?",
+             "options": ["Guido van Rossum", "James Gosling", "Dennis Ritchie", "Linus Torvalds"],
+             "answer": 3
+           }
+         ]
      ```
 
 3. **Quiz Engine (`script.js`)**  
@@ -92,19 +100,7 @@ quizzez/
 - Create a new JSON file, e.g., python.json.
 - Follow this structure:
 ```text
-   "Title": "General question quiz 1"
-   "Questions" : [
-     {
-       "question": "What is Python?",
-       "options": ["Snake", "Programming Language", "Food", "Car"],
-       "answer": 1
-     },
-     {
-       "question": "Who created Python?",
-       "options": ["Guido van Rossum", "James Gosling", "Dennis Ritchie", "Linus Torvalds"],
-       "answer": 3
-     }
-   ]
+      follow the structure that is specified (above)[## ⚙️ How It Works]
 ```
 - Update script.js or menu code to load your new quiz.
 
@@ -124,12 +120,12 @@ To run the project locally:
 
 ---
 
-## incoming development
+## ⏳ incoming development
 
-- Able to solve coding problems in the web-appliction, and get feadback about your solution.
-- Able to answer long question, and have a model which will able to grade you with out being bias of the users solution,
+- Enable to solve coding problems in the web-appliction, and get feadback about your solution.
+- Enable to answer long question, and have a model which will able to grade you with out being bias of the users solution,
   and guide them further into understanding the tested concept.
-- I am busy with a research of implementing my our model with will be able to extract quiz question in any type format.
+- I am busy with a research of implementing my own model which will be able to extract quiz question in any type of file format.
   
 ---
 
