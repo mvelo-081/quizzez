@@ -99,9 +99,8 @@ quizzez/
 - Go to the `Quiz/` folder.
 - Create a new JSON file, e.g., python.json.
 - Follow this structure:
-```text
-      follow the structure that is specified (above)[## ⚙️ How It Works]
-```
+      - follow the structure that is specified (above)[## ⚙️ How It Works]
+
 - Update script.js or menu code to load your new quiz.
 
 ---
