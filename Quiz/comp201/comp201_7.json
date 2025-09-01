@@ -1,0 +1,205 @@
+{
+    "title": "Java Collections Framework ",
+    "questions": [
+      {
+        "question": "What is a collection in the context of the Java Collections Framework?",
+        "options": [
+          "A single object that holds a primitive value",
+          "A container object that represents a group of objects, often referred to as elements",
+          "A class that only stores key/value pairs",
+          "A type of array that can resize itself"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What are the two main types of containers supported by the Java Collections Framework?",
+        "options": [
+          "Set and List",
+          "Collection and Map",
+          "Queue and Stack",
+          "Array and ArrayList"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is NOT a subinterface of the Collection interface?",
+        "options": [
+          "Set",
+          "List",
+          "Queue",
+          "Map"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does the Set collection store?",
+        "options": [
+          "Duplicate elements",
+          "Non-duplicate elements",
+          "Key/value pairs",
+          "Elements in FIFO order"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the List collection store?",
+        "options": [
+          "Unordered elements",
+          "An ordered collection of elements",
+          "Non-duplicate elements only",
+          "Elements in LIFO order"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How are objects processed in a Queue collection?",
+        "options": [
+          "Last In, First Out (LIFO)",
+          "First In, First Out (FIFO)",
+          "In random order",
+          "Based on priority"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which interface is the root interface for manipulating a collection of objects?",
+        "options": [
+          "Iterator",
+          "Comparator",
+          "Collection",
+          "List"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "In the example code provided, which concrete class is used to create a collection object?",
+        "options": [
+          "LinkedList",
+          "HashSet",
+          "ArrayList",
+          "Vector"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method from the Collection interface is used to check if an element is present in a collection?",
+        "options": [
+          "has()",
+          "includes()",
+          "contains()",
+          "check()"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is used to remove an element from a collection?",
+        "options": [
+          "delete()",
+          "discard()",
+          "remove()",
+          "eliminate()"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does the addAll() method do?",
+        "options": [
+          "Adds a single element to the collection",
+          "Adds all elements from another collection to the current collection",
+          "Adds the current collection to another collection",
+          "Creates a new collection with all elements"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the retainAll() method do?",
+        "options": [
+          "Removes all elements from the collection",
+          "Keeps only the elements in the collection that are also in the specified collection",
+          "Adds all elements from the specified collection",
+          "Copies the collection to a new instance"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the removeAll() method do?",
+        "options": [
+          "Removes all elements from the collection",
+          "Removes elements that are not in the specified collection",
+          "Removes elements that are in the specified collection",
+          "Clears the entire collection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the primary purpose of the Iterator interface?",
+        "options": [
+          "To sort elements in a collection",
+          "To traverse the elements in a collection one after another",
+          "To compare elements for equality",
+          "To create new collections"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How does the 'for each' loop simplify working with collections?",
+        "options": [
+          "By automatically sorting the collection",
+          "By simplifying the traversal of a collection without explicit iterator",
+          "By allowing addition of elements during traversal",
+          "By converting the collection to an array"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Comparator interface used for?",
+        "options": [
+          "To traverse collections",
+          "To compare elements for sorting or ordering",
+          "To add elements to a collection",
+          "To remove duplicates from a collection"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In the context of the Java Collections Framework, what do convenience abstract classes provide?",
+        "options": [
+          "Complete implementations of all methods",
+          "Partial implementations for easier creation of concrete classes",
+          "Only method declarations without any implementation",
+          "Static methods for utility operations"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the role of the AbstractCollection class?",
+        "options": [
+          "It implements all methods of the Collection interface",
+          "It implements all methods except add, size, and iterator",
+          "It only declares methods without implementation",
+          "It is used for key/value pairs"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In the example code, what is the result of calling collection1.clone()?",
+        "options": [
+          "A deep copy of the collection",
+          "A shallow copy of the collection",
+          "A reference to the same collection",
+          "A new collection with only some elements"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of collection1.contains(\"Dallas\") in the code, assuming \"Dallas\" was added?",
+        "options": [
+          "true",
+          "false",
+          "null",
+          "0"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
