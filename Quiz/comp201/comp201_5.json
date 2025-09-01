@@ -1,0 +1,195 @@
+{
+    "title": "Introduction to Data Structures",
+    "questions": [
+      {
+        "question": "According to the slides, what is a computational problem?",
+        "options": [
+          "A bug in a computer program.",
+          "A specification of the output as a function of a specified input.",
+          "Any task that requires a computer to perform calculations.",
+          "The study of how to build efficient computers."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the name given to the abstraction (a sequence of steps) designed to solve a computational problem?",
+        "options": [
+          "A Data Structure",
+          "A Function",
+          "An Algorithm",
+          "A Specification"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Why is the efficiency of an algorithm important?",
+        "options": [
+          "Because it makes the code easier to read.",
+          "Because computer resources are limited and need to be used economically.",
+          "Because inefficient algorithms are always incorrect.",
+          "Efficiency is not important if the algorithm produces the correct output."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What two primary resources must an efficient algorithm be economical on?",
+        "options": [
+          "CPU and GPU usage.",
+          "Space (memory) and Running Time.",
+          "Network bandwidth and Storage.",
+          "Developer time and Electricity."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "The efficiency of an algorithm fundamentally depends on what?",
+        "options": [
+          "The programming language it is written in.",
+          "The speed of the computer's processor.",
+          "How the data is organised in memory (the data structure).",
+          "The size of the monitor used to view the output."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the best definition of a 'Data Structure' from the options below?",
+        "options": [
+          "A large database for storing information.",
+          "The way data is organised so it can be effectively used by a program to efficiently solve problems.",
+          "A collection of variables of the same type.",
+          "The physical hardware inside a computer that stores data."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "In the 'search problem' described, what are the inputs?",
+        "options": [
+          "An algorithm and a data structure.",
+          "A set of items A and an item x to search for.",
+          "A linked list and a binary search tree.",
+          "The running time and memory space."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a significant limitation of determining algorithm efficiency experimentally (by implementing and running it)?",
+        "options": [
+          "It is always mathematically inaccurate.",
+          "It is too fast and doesn't provide useful data.",
+          "The algorithm has to be implemented, and you are limited to testing on specific input sizes and platforms.",
+          "It cannot measure the worst-case scenario."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the best-case scenario for searching for an item in a linked list?",
+        "options": [
+          "The item is not in the list.",
+          "The item is stored in the middle node.",
+          "The item is stored in the last node.",
+          "The item is stored in the first node."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "In the worst-case scenario for searching a linked list of one million nodes, how many comparisons might be needed?",
+        "options": [
+          "1",
+          "Approximately 20 (log2(1,000,000))",
+          "1,000,000",
+          "It is impossible to know without running the program."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "According to the slides, what is the main goal of studying data structures?",
+        "options": [
+          "To learn every programming language.",
+          "To understand how to choose the right data structure and algorithm to use resources efficiently.",
+          "To learn how to build faster computer hardware.",
+          "To memorize the syntax for declaring arrays and lists."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a common use case for a Linked List, as mentioned in the slide?",
+        "options": [
+          "To store items that need to be processed in a Last-In-First-Out (LIFO) order.",
+          "To store items that are to be processed sequentially.",
+          "To store items that need to be quickly searched using a divide-and-conquer approach.",
+          "To store key-value pairs for fast lookup."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is each spot on a Linked List called?",
+        "options": [
+          "A Leaf",
+          "A Root",
+          "A Node",
+          "An Element"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What two pieces of information does a single node in a singly Linked List typically hold?",
+        "options": [
+          "An item of data and a reference to the previous node.",
+          "An item of data and two references to child nodes.",
+          "An item of data and a reference to the next node.",
+          "Only an item of data."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How is a Binary Search Tree organized, according to the slide?",
+        "options": [
+          "Like a sequential chain of nodes.",
+          "Like a circular buffer.",
+          "Like an upside-down tree.",
+          "Like a hash table."
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the single node at the top of a BST called?",
+        "options": [
+          "The Head Node",
+          "The Root Node",
+          "The Parent Node",
+          "The Primary Node"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Besides the data item, what do the nodes in a BST contain?",
+        "options": [
+          "A single pointer to the next node.",
+          "A left pointer and a right pointer.",
+          "A reference to the parent node and a list of child nodes.",
+          "A priority value and a color flag."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is NOT listed as an example of a data structure in the slide?",
+        "options": [
+          "Arrays",
+          "Stacks",
+          "Functions",
+          "Graphs"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "The study of data structures covers systematic methodologies for determining what?",
+        "options": [
+          "The cost of cloud computing services.",
+          "The popularity of different programming languages.",
+          "The efficiency of algorithms operating on those data structures.",
+          "The history of computer science."
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  }
