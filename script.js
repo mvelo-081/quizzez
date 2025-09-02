@@ -25,7 +25,8 @@ class QuizApp {
                 'Quiz/comp201/comp201_7.json',
                 'Quiz/comp201/comp201_8.json',
                 'Quiz/comp201/comp201_9.json',
-                'Quiz/comp201/comp201_10.json'
+                'Quiz/comp201/comp201_10.json',
+                'Quiz/comp201/comp201_11.json'
             ],
             "istn212 material": [
                 'Quiz/istn212/istn212_1.json',
