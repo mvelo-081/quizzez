@@ -1,0 +1,130 @@
+{
+    "title": "Understanding JCF diagram v2",
+    "questions":[
+    {
+      "question": "Which interface is the root of the Collection hierarchy?",
+      "correct_answer": "Collection",
+      "options": ["Collection", "List", "Set", "Map", "Queue"]
+    },
+    {
+      "question": "Which interface is not part of the Collection hierarchy?",
+      "correct_answer": "Map",
+      "options": ["Map", "List", "Set", "Queue", "Deque"]
+    },
+    {
+      "question": "Which class provides a resizable array implementation of the List interface?",
+      "correct_answer": "ArrayList",
+      "options": ["ArrayList", "Vector", "LinkedList", "Stack", "TreeSet"]
+    },
+    {
+      "question": "Which class is synchronized by default?",
+      "correct_answer": "Vector",
+      "options": ["Vector", "ArrayList", "LinkedList", "HashSet", "TreeSet"]
+    },
+    {
+      "question": "Which class extends Vector?",
+      "correct_answer": "Stack",
+      "options": ["Stack", "ArrayList", "PriorityQueue", "TreeSet", "LinkedHashSet"]
+    },
+    {
+      "question": "Which class implements both List and Deque interfaces?",
+      "correct_answer": "LinkedList",
+      "options": ["LinkedList", "ArrayList", "Vector", "PriorityQueue", "TreeMap"]
+    },
+    {
+      "question": "Which interface guarantees unique elements but does not maintain insertion order?",
+      "correct_answer": "Set",
+      "options": ["Set", "List", "Queue", "Deque", "Map"]
+    },
+    {
+      "question": "Which Set implementation maintains insertion order?",
+      "correct_answer": "LinkedHashSet",
+      "options": ["LinkedHashSet", "HashSet", "TreeSet", "EnumSet", "PriorityQueue"]
+    },
+    {
+      "question": "Which Set implementation stores elements in sorted order?",
+      "correct_answer": "TreeSet",
+      "options": ["TreeSet", "HashSet", "LinkedHashSet", "Stack", "ArrayList"]
+    },
+    {
+      "question": "Which class provides a high-performance implementation of Set backed by a hash table?",
+      "correct_answer": "HashSet",
+      "options": ["HashSet", "TreeSet", "Vector", "LinkedList", "PriorityQueue"]
+    },
+    {
+      "question": "Which class is a specialized Set implementation for enum constants?",
+      "correct_answer": "EnumSet",
+      "options": ["EnumSet", "HashSet", "TreeSet", "LinkedHashSet", "Properties"]
+    },
+    {
+      "question": "Which abstract class provides a skeletal implementation for collections?",
+      "correct_answer": "AbstractCollection",
+      "options": ["AbstractCollection", "AbstractList", "AbstractSet", "AbstractQueue", "AbstractMap"]
+    },
+    {
+      "question": "Which abstract class provides a skeletal implementation for the List interface?",
+      "correct_answer": "AbstractList",
+      "options": ["AbstractList", "AbstractCollection", "AbstractSet", "AbstractQueue", "AbstractSequentialList"]
+    },
+    {
+      "question": "Which abstract class provides a skeletal implementation for the Set interface?",
+      "correct_answer": "AbstractSet",
+      "options": ["AbstractSet", "AbstractList", "AbstractCollection", "AbstractQueue", "AbstractMap"]
+    },
+    {
+      "question": "Which abstract class provides a skeletal implementation for the Queue interface?",
+      "correct_answer": "AbstractQueue",
+      "options": ["AbstractQueue", "AbstractSet", "AbstractList", "AbstractCollection", "AbstractSequentialList"]
+    },
+    {
+      "question": "Which interface extends Queue to support double-ended queues?",
+      "correct_answer": "Deque",
+      "options": ["Deque", "Queue", "Set", "List", "Map"]
+    },
+    {
+      "question": "Which class implements a priority-based queue?",
+      "correct_answer": "PriorityQueue",
+      "options": ["PriorityQueue", "LinkedList", "ArrayList", "Stack", "TreeSet"]
+    },
+    {
+      "question": "Which interface guarantees unique keys and maps them to values?",
+      "correct_answer": "Map",
+      "options": ["Map", "Set", "Queue", "Collection", "List"]
+    },
+    {
+      "question": "Which Map implementation allows null keys and values?",
+      "correct_answer": "HashMap",
+      "options": ["HashMap", "TreeMap", "Hashtable", "Properties", "IdentityHashMap"]
+    },
+    {
+      "question": "Which Map implementation does not allow null keys or values and is synchronized?",
+      "correct_answer": "Hashtable",
+      "options": ["Hashtable", "HashMap", "TreeMap", "LinkedHashMap", "WeakHashMap"]
+    },
+    {
+      "question": "Which Map implementation maintains insertion order?",
+      "correct_answer": "LinkedHashMap",
+      "options": ["LinkedHashMap", "HashMap", "TreeMap", "IdentityHashMap", "WeakHashMap"]
+    },
+    {
+      "question": "Which Map implementation stores keys in natural ordering?",
+      "correct_answer": "TreeMap",
+      "options": ["TreeMap", "HashMap", "LinkedHashMap", "Hashtable", "Properties"]
+    },
+    {
+      "question": "Which Map implementation uses weak references for keys?",
+      "correct_answer": "WeakHashMap",
+      "options": ["WeakHashMap", "HashMap", "TreeMap", "Hashtable", "LinkedHashMap"]
+    },
+    {
+      "question": "Which Map implementation is used for maintaining system properties?",
+      "correct_answer": "Properties",
+      "options": ["Properties", "HashMap", "Hashtable", "TreeMap", "IdentityHashMap"]
+    },
+    {
+      "question": "Which Map implementation compares keys using object reference equality (==)?",
+      "correct_answer": "IdentityHashMap",
+      "options": ["IdentityHashMap", "HashMap", "WeakHashMap", "TreeMap", "LinkedHashMap"]
+    }
+  ]
+}

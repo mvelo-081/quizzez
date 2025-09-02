@@ -1,0 +1,205 @@
+{
+    "title": "Understanding JCF diagram v1",
+    "questions": [
+      {
+        "question": "Which of the following interfaces does the TreeSet class implement?",
+        "options": [
+          "List",
+          "Set",
+          "Queue",
+          "Map"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following classes implements the Queue interface?",
+        "options": [
+          "ArrayList",
+          "LinkedList",
+          "PriorityQueue",
+          "TreeSet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which abstract class does the LinkedList class extend?",
+        "options": [
+          "AbstractList",
+          "AbstractSequentialList",
+          "AbstractQueue",
+          "AbstractCollection"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which abstract class does the PriorityQueue class extend?",
+        "options": [
+          "AbstractList",
+          "AbstractSequentialList",
+          "AbstractQueue",
+          "AbstractCollection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the superinterface of Deque?",
+        "options": [
+          "List",
+          "Set",
+          "Queue",
+          "Collection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the superinterface of SortedSet?",
+        "options": [
+          "Set",
+          "Collection",
+          "List",
+          "Queue"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the subinterface of Set?",
+        "options": [
+          "List",
+          "Queue",
+          "SortedSet",
+          "Deque"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following classes implements the Set interface?",
+        "options": [
+          "ArrayList",
+          "LinkedList",
+          "TreeSet",
+          "PriorityQueue"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following classes does NOT implement the List interface?",
+        "options": [
+          "Vector",
+          "Stack",
+          "ArrayList",
+          "LinkedHashSet"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which class implements the Deque interface?",
+        "options": [
+          "ArrayList",
+          "LinkedList",
+          "PriorityQueue",
+          "TreeSet"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which interface is at the root of the collection hierarchy?",
+        "options": [
+          "Set",
+          "List",
+          "Collection",
+          "Map"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a concrete class?",
+        "options": [
+          "List",
+          "Set",
+          "ArrayList",
+          "Collection"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is an abstract class?",
+        "options": [
+          "ArrayList",
+          "LinkedList",
+          "AbstractSequentialList",
+          "TreeSet"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the relationship between NavigableSet and SortedSet?",
+        "options": [
+          "NavigableSet extends SortedSet",
+          "SortedSet extends NavigableSet",
+          "They are unrelated",
+          "Both extend Set"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which class is a subclass of Vector?",
+        "options": [
+          "ArrayList",
+          "Stack",
+          "LinkedList",
+          "PriorityQueue"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a Queue implementation?",
+        "options": [
+          "TreeSet",
+          "LinkedHashSet",
+          "PriorityQueue",
+          "Vector"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a List implementation?",
+        "options": [
+          "TreeSet",
+          "LinkedHashSet",
+          "PriorityQueue",
+          "ArrayList"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is a Set implementation?",
+        "options": [
+          "ArrayList",
+          "LinkedList",
+          "TreeSet",
+          "PriorityQueue"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which interface does LinkedHashSet implement?",
+        "options": [
+          "List",
+          "Set",
+          "Queue",
+          "Deque"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the top-level interface for collections in the Java Collections Framework?",
+        "options": [
+          "Iterable",
+          "Collection",
+          "Object",
+          "List"
+        ],
+        "correctAnswer": 1
+      }
+    ]
+  }
