@@ -1,0 +1,177 @@
+{
+    "title": "Max-Heap Operations Quiz",
+    "questions": [
+      {
+        "question": "Build a max-heap from the array [4, 10, 3, 5, 1]. What is the resulting heap?",
+        "correctAnswer": 1,
+        "options": [
+          "    4\n   /  \\\n 10    3\n / \\\n5   1",
+          "    10\n   /  \\\n  5    3\n / \\\n4   1",
+          "    10\n   /  \\\n  3    5\n / \\\n4   1"
+        ]
+      },
+      {
+        "question": "Insert 6 into the max-heap:\n    10\n   /  \\\n  5    3\n / \\\n4   1",
+        "correctAnswer": 2,
+        "options": [
+          "    10\n   /  \\\n  6    3\n / \\\n5   1  4",
+          "    10\n   /  \\\n  6    5\n / \\\n4   1  3",
+          "    10\n   /  \\\n  5    6\n / \\\n4   1  3"
+        ]
+      },
+      {
+        "question": "Remove the max (root) from the max-heap:\n    10\n   /  \\\n  5    3\n / \\\n4   1",
+        "correctAnswer": 0,
+        "options": [
+          "    5\n   /  \\\n  4    3\n /\n1",
+          "    5\n   /  \\\n  1    3\n / \\\n4   -",
+          "    3\n   /  \\\n  5    1\n /\n4"
+        ]
+      },
+      {
+        "question": "Insert 8 into the max-heap:\n    10\n   /  \\\n  5    3\n / \\\n4   1",
+        "correctAnswer": 0,
+        "options": [
+          "    10\n   /  \\\n  8    3\n / \\\n5   1  4",
+          "    10\n   /  \\\n  8    5\n / \\\n4   1  3",
+          "    10\n   /  \\\n  5    8\n / \\\n4   1  3"
+        ]
+      },
+      {
+        "question": "Build a max-heap from [2, 7, 6, 3, 9]. Resulting heap?",
+        "correctAnswer": 2,
+        "options": [
+          "    2\n   /  \\\n  7    6\n / \\\n3   9",
+          "    7\n   /  \\\n  6    9\n / \\\n3   2",
+          "    9\n   /  \\\n  7    6\n / \\\n3   2"
+        ]
+      },
+      {
+        "question": "Remove max from:\n    15\n   /  \\\n 10    8\n / \\\n7   5",
+        "correctAnswer": 0,
+        "options": [
+          "    10\n   /  \\\n  7    8\n / \\\n4   5",
+          "    10\n   /  \\\n  1    8\n / \\\n7   5",
+          "    8\n   /  \\\n 10    7\n / \\\n5   4"
+        ]
+      },
+      {
+        "question": "Insert 12 into:\n    10\n   /  \\\n  7    8\n / \\\n4   5",
+        "correctAnswer": 1,
+        "options": [
+          "    12\n   /  \\\n  10    8\n / \\\n7   5  4",
+          "    12\n   /  \\\n  10    8\n / \\\n7   5  4",
+          "    12\n   /  \\\n  10    8\n / \\\n7   5  4"
+        ]
+      },
+      {
+        "question": "Build max-heap from [1, 3, 5, 9, 2, 8]. Resulting heap?",
+        "correctAnswer": 0,
+        "options": [
+          "      9\n     / \\\n    3   8\n   / \\\n  1   2  5",
+          "      8\n     / \\\n    5   3\n   / \\\n  1   2  9",
+          "      9\n     / \\\n    5   8\n   / \\\n  3   1  2"
+        ]
+      },
+      {
+        "question": "Remove max from:\n      20\n     /  \\\n   15    18\n  / \\\n10  12 5",
+        "correctAnswer": 1,
+        "options": [
+          "      18\n     /  \\\n   15    5\n  / \\\n10  12",
+          "      18\n     /  \\\n   15    5\n  / \\\n10  12",
+          "      15\n     /  \\\n   18    5\n  / \\\n12  10"
+        ]
+      },
+      {
+        "question": "Insert 16 into:\n      18\n     /  \\\n   15    5\n  / \\\n10  12",
+        "correctAnswer": 2,
+        "options": [
+          "      18\n     /  \\\n   16    5\n  / \\\n15  12 10",
+          "      18\n     /  \\\n   16    5\n  / \\\n15  12 10",
+          "      18\n     /  \\\n   16    5\n  / \\\n15  12 10"
+        ]
+      },
+      {
+        "question": "Build max-heap from [6, 4, 7, 2, 9, 1]. Resulting heap?",
+        "correctAnswer": 2,
+        "options": [
+          "      9\n     /  \\\n    6    7\n   / \\\n  2   4  1",
+          "      7\n     /  \\\n    6    4\n   / \\\n  2   9  1",
+          "      9\n     /  \\\n    6    7\n   / \\\n  2   4  1"
+        ]
+      },
+      {
+        "question": "Remove max from:\n      12\n     /  \\\n    9     10\n   / \\\n  5   8",
+        "correctAnswer": 0,
+        "options": [
+          "      10\n     /  \\\n    9     8\n   / \\\n  5",
+          "      9\n     /  \\\n    12    10\n   / \\\n  5   8",
+          "      10\n     /  \\\n    5     8\n   / \\\n  9"
+        ]
+      },
+      {
+        "question": "Insert 11 into:\n      10\n     /  \\\n    9     8\n   / \\\n  4   7",
+        "correctAnswer": 1,
+        "options": [
+          "      11\n     /  \\\n    10    8\n   / \\\n  9   7  4",
+          "      10\n     /  \\\n    11    8\n   / \\\n  9   7  4",
+          "      11\n     /  \\\n    8     10\n   / \\\n  9   7  4"
+        ]
+      },
+      {
+        "question": "Build max-heap from [3, 1, 6, 5, 2, 4]. Resulting heap?",
+        "correctAnswer": 0,
+        "options": [
+          "      6\n     /  \\\n    5    4\n   / \\\n  3   2  1",
+          "      5\n     /  \\\n    6    4\n   / \\\n  3   2  1",
+          "      6\n     /  \\\n    3    5\n   / \\\n  1   2  4"
+        ]
+      },
+      {
+        "question": "Remove max from:\n      14\n     /  \\\n   10    12\n  / \\\n7   9",
+        "correctAnswer": 2,
+        "options": [
+          "      12\n     /  \\\n   10    9\n  / \\\n7",
+          "      12\n     /  \\\n   14    10\n  / \\\n9   7",
+          "      10\n     /  \\\n   12    9\n  / \\\n7"
+        ]
+      },
+      {
+        "question": "Insert 13 into:\n      12\n     /  \\\n   10    9\n  / \\\n7   8",
+        "correctAnswer": 0,
+        "options": [
+          "      13\n     /  \\\n   12    9\n  / \\\n10  8  7",
+          "      12\n     /  \\\n   13    9\n  / \\\n10  8  7",
+          "      13\n     /  \\\n   10    12\n  / \\\n9   8  7"
+        ]
+      },
+      {
+        "question": "Build max-heap from [5, 2, 8, 1, 6, 3]. Resulting heap?",
+        "correctAnswer": 1,
+        "options": [
+          "      8\n     /  \\\n    6    5\n   / \\\n  1   2  3",
+          "      8\n     /  \\\n    5    6\n   / \\\n  1   2  3",
+          "      5\n     /  \\\n    8    6\n   / \\\n  2   1  3"
+        ]
+      },
+      {
+        "question": "Remove max from:\n      16\n     /  \\\n   12    14\n  / \\\n10  11",
+        "correctAnswer": 0,
+        "options": [
+          "      14\n     /  \\\n   12    11\n  / \\\n10",
+          "      12\n     /  \\\n   16    14\n  / \\\n11  10",
+          "      14\n     /  \\\n   16    12\n  / \\\n10  11"
+        ]
+      },
+      {
+        "question": "Insert 15 into:\n      14\n     /  \\\n   12    13\n  / \\\n9   10",
+        "correctAnswer": 2,
+        "options": [
+          "      15\n     /  \\\n   14    13\n  / \\\n12  10  9",
+          "      14\n     /  \\\n   15    13\n  / \\\n12  10  9",
+          "      15\n     /  \\\n   12    14\n  / \\\n13  10  9"
+        ]
+      }
+    ]
+  }
+  
