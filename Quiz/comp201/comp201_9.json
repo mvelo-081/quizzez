@@ -4,127 +4,127 @@
       {
         "question": "Which interface is the root of the Java Collections Framework?",
         "options": ["List", "Set", "Collection", "Queue", "Map"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which abstract class directly extends Collection?",
         "options": ["AbstractList", "AbstractSet", "AbstractCollection", "AbstractQueue", "AbstractSequentialList"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which interface extends Collection to define an ordered sequence of elements?",
         "options": ["Queue", "Set", "List", "Deque", "SortedSet"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete class implements the List interface using a dynamic array?",
         "options": ["LinkedList", "Vector", "ArrayList", "Stack", "TreeSet"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete class extends Vector to provide LIFO behavior?",
         "options": ["ArrayList", "HashSet", "Stack", "Deque", "PriorityQueue"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete class implements List using a doubly linked list?",
         "options": ["ArrayList", "LinkedList", "Vector", "TreeSet", "HashMap"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which abstract class does LinkedList extend?",
         "options": ["AbstractQueue", "AbstractList", "AbstractCollection", "AbstractSequentialList", "AbstractSet"],
-        "correctIndex": 3
+        "correctAnswer": 3
       },
       {
         "question": "Which interface represents a collection that does not allow duplicate elements?",
         "options": ["Queue", "Deque", "Set", "List", "PriorityQueue"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which abstract class does HashSet extend?",
         "options": ["AbstractList", "AbstractCollection", "AbstractQueue", "AbstractSet", "AbstractSequentialList"],
-        "correctIndex": 3
+        "correctAnswer": 3
       },
       {
         "question": "Which concrete class maintains insertion order in a Set?",
         "options": ["TreeSet", "HashSet", "LinkedHashSet", "PriorityQueue", "Vector"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete Set implementation stores elements in a sorted order?",
         "options": ["TreeSet", "HashSet", "LinkedHashSet", "Stack", "ArrayList"],
-        "correctIndex": 0
+        "correctAnswer": 0
       },
       {
         "question": "Which interface does TreeSet implement?",
         "options": ["Queue", "Deque", "NavigableSet", "AbstractSet", "PriorityQueue"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which interface extends Set to define sorted sets?",
         "options": ["Queue", "List", "SortedSet", "NavigableSet", "Deque"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete class is designed for FIFO behavior?",
         "options": ["Deque", "PriorityQueue", "HashSet", "LinkedList", "ArrayList"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which interface extends Queue to allow insertion and removal at both ends?",
         "options": ["Set", "Deque", "PriorityQueue", "List", "SortedSet"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which abstract class implements Queue?",
         "options": ["AbstractList", "AbstractQueue", "AbstractCollection", "AbstractSet", "AbstractSequentialList"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which concrete class can act as both List and Deque?",
         "options": ["HashSet", "TreeSet", "LinkedList", "ArrayList", "Vector"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete class is backed by a hashtable and does not guarantee order?",
         "options": ["HashSet", "LinkedHashSet", "TreeSet", "PriorityQueue", "Vector"],
-        "correctIndex": 0
+        "correctAnswer": 0
       },
       {
         "question": "Which class is synchronized and part of legacy collections?",
         "options": ["ArrayList", "Vector", "Stack", "PriorityQueue", "HashSet"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which interface does PriorityQueue implement?",
         "options": ["Deque", "List", "Set", "Queue", "SortedSet"],
-        "correctIndex": 3
+        "correctAnswer": 3
       },
       {
         "question": "Which interface is implemented by TreeSet that allows navigation methods?",
         "options": ["Queue", "Deque", "SortedSet", "NavigableSet", "List"],
-        "correctIndex": 3
+        "correctAnswer": 3
       },
       {
         "question": "Which abstract class provides skeletal implementation for Set?",
         "options": ["AbstractList", "AbstractSet", "AbstractCollection", "AbstractQueue", "AbstractSequentialList"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which concrete class provides fast random access but slow insertions in the middle?",
         "options": ["Vector", "ArrayList", "LinkedList", "Stack", "PriorityQueue"],
-        "correctIndex": 1
+        "correctAnswer": 1
       },
       {
         "question": "Which concrete collection class allows duplicate elements?",
         "options": ["HashSet", "TreeSet", "ArrayList", "LinkedHashSet", "PriorityQueue"],
-        "correctIndex": 2
+        "correctAnswer": 2
       },
       {
         "question": "Which concrete collection class automatically orders elements based on their natural ordering or a comparator?",
         "options": ["HashSet", "LinkedHashSet", "TreeSet", "PriorityQueue", "Vector"],
-        "correctIndex": 2
+        "correctAnswer": 2
       }
     ]
   }
