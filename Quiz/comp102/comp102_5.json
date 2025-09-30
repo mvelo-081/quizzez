@@ -1,0 +1,292 @@
+{
+    "title": "OOP, String and Method Quiz",
+    "questions": [
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class ManipulateString {\n    private String str;\n    public ManipulateString(String str) {\n        this.str = str;\n    }\n    public String modifyString() {\n        String newStr = str.replace('a', '@').concat(\"End\");\n        return newStr;\n    }\n    public String getOriginalString() {\n        return str;\n    }\n    public static void main(String[] args) {\n        ManipulateString ms = new ManipulateString(\"Java\");\n        System.out.println(ms.modifyString());\n        System.out.println(ms.getOriginalString());\n    }\n}</code></pre>",
+        "options": ["J@v@End J@v@", "J@v@End Java", "JavaEnd Java", "J@v@End J@v@"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the code and why?\n\n<pre><code class=\"language-java\">class StringTest {\n    public static String reverseString(String str) {\n        String reversed = \"\";\n        for (int i = str.length() - 1; i >= 0; i--) {\n            reversed += str.charAt(i);\n        }\n        return reversed;\n    }\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = reverseString(s1);\n        System.out.println(s1 == s2);\n    }\n}</code></pre>",
+        "options": ["true", "false"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output?\n\n<pre><code class=\"language-java\">class Sample {\n    private static int counter = 0;\n    private int id;\n    public Sample() {\n        this.id = ++counter;\n    }\n    public static void resetCounter() {\n        counter = 0;\n    }\n    public int getId() {\n        return id;\n    }\n    public static void main(String[] args) {\n        Sample obj1 = new Sample();\n        Sample obj2 = new Sample();\n        obj1.resetCounter();\n        Sample obj3 = new Sample();\n        System.out.println(obj3.getId());\n    }\n}</code></pre>",
+        "options": ["1", "2", "3", "0"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Alpha {\n    private int x;\n    Alpha() {\n        this(5);\n        System.out.print(\"A \");\n    }\n    Alpha(int x) {\n        this.x = x;\n        System.out.print(\"B \");\n    }\n    public int getX() {\n        return x;\n    }\n}\nclass Beta extends Alpha {\n    Beta() {\n        super(10);\n        System.out.print(\"C \");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Beta b = new Beta();\n        System.out.println(b.getX());\n    }\n}</code></pre>",
+        "options": ["A B C 5", "B A C 5", "B C 10", "B C 5"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">public class StringTest {\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = new String(\"hello\");\n        String s3 = \"hello\";\n        if (s1 == s2) {\n            System.out.println(\"s1 and s2 are equal\");\n        } else {\n            System.out.println(\"s1 and s2 are not equal\");\n        }\n        if (s1.equals(s2)) {\n            System.out.println(\"s1 equals s2\");\n        }\n        if (s1 == s3) {\n            System.out.println(\"s1 and s3 are equal\");\n        }\n    }\n}</code></pre>",
+        "options": [
+          "s1 and s2 are equal, s1 equals s2, s1 and s3 are equal",
+          "s1 and s2 are not equal, s1 equals s2, s1 and s3 are equal",
+          "s1 and s2 are not equal, s1 and s3 are equal",
+          "s1 equals s2, s1 and s3 are equal"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class ArrayTest {\n    public static void modifyArray(int[] arr) {\n        arr[0] = 100;\n    }\n    public static void main(String[] args) {\n        int[] myArray = {1, 2, 3};\n        modifyArray(myArray);\n        System.out.println(myArray[0]);\n    }\n}</code></pre>",
+        "options": ["1", "100", "0", "Compile-time error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Counter {\n    static int count = 0;\n    int instanceCount = 0;\n    Counter() {\n        count++;\n        instanceCount++;\n    }\n    public static int getCount() {\n        return count;\n    }\n    public int getInstanceCount() {\n        return instanceCount;\n    }\n}\npublic class TestCounter {\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        System.out.println(\"Static count: \" + Counter.getCount());\n        System.out.println(\"Instance count for c1: \" + c1.getInstanceCount());\n        System.out.println(\"Instance count for c2: \" + c2.getInstanceCount());\n    }\n}</code></pre>",
+        "options": [
+          "Static count: 2, Instance count for c1: 1, Instance count for c2: 1",
+          "Static count: 1, Instance count for c1: 1, Instance count for c2: 2",
+          "Static count: 2, Instance count for c1: 2, Instance count for c2: 2",
+          "Static count: 1, Instance count for c1: 2, Instance count for c2: 1"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">public class StringConcat {\n    public static void main(String[] args) {\n        String s = \"Value: \";\n        int a = 10, b = 20;\n        System.out.println(s + a + b);\n        System.out.println(a + b + s);\n    }\n}</code></pre>",
+        "options": ["Value: 1020, 30Value:", "1020Value: , Value: 30", "Value: 30, Value: 1020", "Value: 30, 30Value:"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class OverloadTest {\n    public void display(int x) {\n        System.out.println(\"Integer: \" + x);\n    }\n    public void display(String x) {\n        System.out.println(\"String: \" + x);\n    }\n    public static void main(String[] args) {\n        OverloadTest test = new OverloadTest();\n        test.display(10);\n        test.display(\"Hello\");\n    }\n}</code></pre>",
+        "options": ["Integer: 10, String: Hello", "String: 10, String: Hello", "Integer: Hello, Integer: 10", "Compile-time error"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Item {\n    private String name;\n    public Item(String name) {\n        this.name = name;\n    }\n    public void setName(String name) {\n        this.name = name;\n    }\n    public String getName() {\n        return name;\n    }\n}\npublic class TestItem {\n    public static void main(String[] args) {\n        Item item1 = new Item(\"Pen\");\n        Item item2 = new Item(\"Pencil\");\n        item1 = item2;\n        item2.setName(\"Eraser\");\n        System.out.println(item1.getName() + \" \" + item2.getName());\n    }\n}</code></pre>",
+        "options": ["Pen Pencil", "Pencil Eraser", "Eraser Eraser", "Pen Eraser"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class ManipulateString {\n    private String str;\n    public ManipulateString(String str) {\n        this.str = str;\n    }\n    public String modifyString() {\n        String newStr = str.replace('a', '@').concat(\"End\");\n        return newStr;\n    }\n    public String getOriginalString() {\n        return str;\n    }\n    public static void main(String[] args) {\n        ManipulateString ms = new ManipulateString(\"Java\");\n        System.out.println(ms.modifyString());\n        System.out.println(ms.getOriginalString());\n    }\n}</code></pre>",
+        "options": ["J@v@End J@v@", "J@v@End Java", "JavaEnd Java", "J@v@End J@v@"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the code and why?\n\n<pre><code class=\"language-java\">class StringTest {\n    public static String reverseString(String str) {\n        String reversed = \"\";\n        for (int i = str.length() - 1; i >= 0; i--) {\n            reversed += str.charAt(i);\n        }\n        return reversed;\n    }\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = reverseString(s1);\n        System.out.println(s1 == s2);\n    }\n}</code></pre>",
+        "options": ["true", "false"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output?\n\n<pre><code class=\"language-java\">class Sample {\n    private static int counter = 0;\n    private int id;\n    public Sample() {\n        this.id = ++counter;\n    }\n    public static void resetCounter() {\n        counter = 0;\n    }\n    public int getId() {\n        return id;\n    }\n    public static void main(String[] args) {\n        Sample obj1 = new Sample();\n        Sample obj2 = new Sample();\n        obj1.resetCounter();\n        Sample obj3 = new Sample();\n        System.out.println(obj3.getId());\n    }\n}</code></pre>",
+        "options": ["1", "2", "3", "0"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Alpha {\n    private int x;\n    Alpha() {\n        this(5);\n        System.out.print(\"A \");\n    }\n    Alpha(int x) {\n        this.x = x;\n        System.out.print(\"B \");\n    }\n    public int getX() {\n        return x;\n    }\n}\nclass Beta extends Alpha {\n    Beta() {\n        super(10);\n        System.out.print(\"C \");\n    }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Beta b = new Beta();\n        System.out.println(b.getX());\n    }\n}</code></pre>",
+        "options": ["A B C 5", "B A C 5", "B C 10", "B C 5"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">public class StringTest {\n    public static void main(String[] args) {\n        String s1 = \"hello\";\n        String s2 = new String(\"hello\");\n        String s3 = \"hello\";\n        if (s1 == s2) {\n            System.out.println(\"s1 and s2 are equal\");\n        } else {\n            System.out.println(\"s1 and s2 are not equal\");\n        }\n        if (s1.equals(s2)) {\n            System.out.println(\"s1 equals s2\");\n        }\n        if (s1 == s3) {\n            System.out.println(\"s1 and s3 are equal\");\n        }\n    }\n}</code></pre>",
+        "options": [
+          "s1 and s2 are equal, s1 equals s2, s1 and s3 are equal",
+          "s1 and s2 are not equal, s1 equals s2, s1 and s3 are equal",
+          "s1 and s2 are not equal, s1 and s3 are equal",
+          "s1 equals s2, s1 and s3 are equal"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class ArrayTest {\n    public static void modifyArray(int[] arr) {\n        arr[0] = 100;\n    }\n    public static void main(String[] args) {\n        int[] myArray = {1, 2, 3};\n        modifyArray(myArray);\n        System.out.println(myArray[0]);\n    }\n}</code></pre>",
+        "options": ["1", "100", "0", "Compile-time error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Counter {\n    static int count = 0;\n    int instanceCount = 0;\n    Counter() {\n        count++;\n        instanceCount++;\n    }\n    public static int getCount() {\n        return count;\n    }\n    public int getInstanceCount() {\n        return instanceCount;\n    }\n}\npublic class TestCounter {\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        System.out.println(\"Static count: \" + Counter.getCount());\n        System.out.println(\"Instance count for c1: \" + c1.getInstanceCount());\n        System.out.println(\"Instance count for c2: \" + c2.getInstanceCount());\n    }\n}</code></pre>",
+        "options": [
+          "Static count: 2, Instance count for c1: 1, Instance count for c2: 1",
+          "Static count: 1, Instance count for c1: 1, Instance count for c2: 2",
+          "Static count: 2, Instance count for c1: 2, Instance count for c2: 2",
+          "Static count: 1, Instance count for c1: 2, Instance count for c2: 1"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">public class StringConcat {\n    public static void main(String[] args) {\n        String s = \"Value: \";\n        int a = 10, b = 20;\n        System.out.println(s + a + b);\n        System.out.println(a + b + s);\n    }\n}</code></pre>",
+        "options": ["Value: 1020, 30Value:", "1020Value: , Value: 30", "Value: 30, Value: 1020", "Value: 30, 30Value:"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class OverloadTest {\n    public void display(int x) {\n        System.out.println(\"Integer: \" + x);\n    }\n    public void display(String x) {\n        System.out.println(\"String: \" + x);\n    }\n    public static void main(String[] args) {\n        OverloadTest test = new OverloadTest();\n        test.display(10);\n        test.display(\"Hello\");\n    }\n}</code></pre>",
+        "options": ["Integer: 10, String: Hello", "String: 10, String: Hello", "Integer: Hello, Integer: 10", "Compile-time error"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output of the following code?\n\n<pre><code class=\"language-java\">class Item {\n    private String name;\n    public Item(String name) {\n        this.name = name;\n    }\n    public void setName(String name) {\n        this.name = name;\n    }\n    public String getName() {\n        return name;\n    }\n}\npublic class TestItem {\n    public static void main(String[] args) {\n        Item item1 = new Item(\"Pen\");\n        Item item2 = new Item(\"Pencil\");\n        item1 = item2;\n        item2.setName(\"Eraser\");\n        System.out.println(item1.getName() + \" \" + item2.getName());\n    }\n}</code></pre>",
+        "options": ["Pen Pencil", "Pencil Eraser", "Eraser Eraser", "Pen Eraser"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What will happen if the main method is executed?\n\n<pre><code class=\"language-java\">class Example {\n    private static int a = 5;\n    private int b;\n    public Example() { b = 10; }\n    public static void printStatic() { System.out.println(a); }\n    public void printInstance() { System.out.println(b); }\n}\npublic class Test {\n    public static void main(String[] args) {\n        Example ex1 = new Example();\n        Example ex2 = null;\n        ex2.printStatic();\n        ex1.printInstance();\n    }\n}</code></pre>",
+        "options": [
+          "Compile-time error due to ex2.printStatic() call.",
+          "Compile-time error due to ex1.printInstance() call.",
+          "Runtime NullPointerException on ex2.printStatic().",
+          "Program runs successfully and prints 5 and 10."
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What will be the output and why?\n\n<pre><code class=\"language-java\">class Person {\n    private String name;\n    private static int count = 0;\n    public Person(String name) { this.name = name; count++; }\n    public static void main(String[] args) {\n        Person p1 = new Person(\"Alice\");\n        Person p2 = new Person(\"Bob\");\n        p1 = null;\n        p2 = null;\n        System.out.println(Person.count);\n    }\n}</code></pre>",
+        "options": ["0", "1", "2", "3"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "What will be the output?\n\n<pre><code class=\"language-java\">class StringComparison {\n    public static void main(String[] args) {\n        String s1 = \"Java\";\n        String s2 = new String(\"Java\");\n        System.out.println(s1 == s2);\n        System.out.println(s1.equals(s2));\n    }\n}</code></pre>",
+        "options": ["true true", "false true", "true false", "false false"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the output and why?\n\n<pre><code class=\"language-java\">class ModifyString {\n    public static void appendString(StringBuilder sb) { sb.append(\" World\"); }\n    public static void main(String[] args) {\n        StringBuilder s = new StringBuilder(\"Hello\");\n        appendString(s);\n        System.out.println(s.toString());\n    }\n}</code></pre>",
+        "options": ["Hello", "Hello World", "Compilation error", "Runtime error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output and why?\n\n<pre><code class=\"language-java\">class Counter {\n    private int count;\n    private static int totalCount;\n    public Counter() { count++; totalCount++; }\n    public int getCount() { return count; }\n    public static int getTotalCount() { return totalCount; }\n    public static void main(String[] args) {\n        Counter c1 = new Counter();\n        Counter c2 = new Counter();\n        System.out.println(c1.getCount() + \" \" + Counter.getTotalCount());\n    }\n}</code></pre>",
+        "options": ["1 2", "0 2", "2 2", "1 1"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "What is the output and why?\n\n<pre><code class=\"language-java\">class A {\n    int x = 5;\n    public void display() { System.out.println(x); }\n}\nclass B extends A {\n    int x = 10;\n    @Override public void display() { System.out.println(x); }\n}\npublic class MainClass {\n    public static void main(String[] args) {\n        A a = new B();\n        a.display();\n    }\n}</code></pre>",
+        "options": ["5", "10", "Compile-time error", "Runtime error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output and why?\n\n<pre><code class=\"language-java\">class Example {\n    private static int value = 10;\n    public static void changeValue(int newValue) { value = newValue; }\n    public void displayValue() { System.out.println(value); }\n    public static void main(String[] args) {\n        Example ex1 = new Example();\n        Example ex2 = new Example();\n        ex1.changeValue(20);\n        ex2.displayValue();\n    }\n}</code></pre>",
+        "options": ["10", "20", "Compilation error", "Runtime error"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will happen when the above code is executed?\n\n<pre><code class=\"language-java\">class Parent { public void show() { System.out.println(\"Parent\"); } }\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Parent();\n        p.show();\n        p.onlyInChild();  // Will this work?\n    }\n}</code></pre>",
+        "options": [
+          "Only \"Child\" is printed.",
+          "Compile-time error on p.onlyInChild() call.",
+          "Runtime error due to p.onlyInChild() call.",
+          "Both \"Child\" and \"Only in Child\" are printed."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output of this code?\n\n<pre><code class=\"language-java\">class Alpha { Beta c; Alpha() { c = new Beta(); System.out.println(\"Alpha\"); } }\nclass Beta  { Beta() { System.out.println(\"Beta\"); } }\nclass Gamma  { Alpha a; Gamma() { a = new Alpha(); System.out.println(\"Gamma\"); }\n    public static void main(String[] args) { Gamma g = new Gamma(); } }\n</code></pre>",
+        "options": ["Alpha Beta Gamma", "Gamma Beta Alpha", "Alpha Gamma Beta", "Beta Alpha Gamma"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What will be the output of the code?\n\n<pre><code class=\"language-java\">class BlockExample {\n    public BlockExample() { System.out.println(\"Constructor\"); }\n    public static void main(String[] args) { BlockExample ex = new BlockExample(); }\n}</code></pre>",
+        "options": [
+          "Static Block Instance Block Constructor",
+          "Instance Block Static Block Constructor",
+          "Constructor Static Block Instance Block",
+          "Static Block Constructor Instance Block",
+          "none of the above"
+        ],
+        "correctAnswer": 4
+      },
+      {
+        "question": "Complete the constructor below.\n\n<pre><code class=\"language-java\">class Person {\n    private String name;\n    private int age;\n\n    // Complete the constructor that takes name and age as parameters\n    public ________(String ________, int ________) {\n        this._______ = _______;\n        this._______ = _______;\n    }\n\n    public void displayInfo() {\n        System.out.println(\"Name: \" + name + \", Age: \" + age);\n    }\n\n    public static void main(String[] args) {\n        Person p = new Person(\"John\", 25);\n        p.displayInfo();\n    }\n}</code></pre>",
+        "options": [
+          "public Person(String name, int age) , name = this.name , age = age",
+          "private Person(String n, int a)",
+          "public void Person(String name, int age)",
+          "Person(String name, int age) , name = name , age = age"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Complete the add method.\n\n<pre><code class=\"language-java\">class MathOperations {\n    private static int x = 5;\n\n    // Complete the method that adds y to x and returns the result\n    public static ________ add(int ________) {\n        ________ = ________ + ________;\n        return ________;\n    }\n\n    public static void main(String[] args) {\n        System.out.println(\"Result: \" + add(10));\n    }\n}</code></pre>",
+        "options": [
+          "void add(int y) { y = y + x; return y; }",
+          "int add(int y) { x = y + x; return x; }",
+          "public static int add(int y) { x = y + x; return y; }",
+          "public static int add(int y) { x = x + y; return x; }"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Complete the toUpperCase method.\n\n<pre><code class=\"language-java\">class StringManipulator {\n    private String str;\n    public StringManipulator(String s) {\n        this.str = s;\n    }\n    // Complete the method to return the string in uppercase\n    public ________ ________ toUpperCase() {\n        return ________.________();\n    }\n    public static void main(String[] args) {\n        StringManipulator sm = new StringManipulator(\"java\");\n        System.out.println(sm.toUpperCase());\n    }\n}</code></pre>",
+        "options": [
+          "String static toUpperCase() { return str.toUpper(); }",
+          "String void toUpper() { return str.toUpperCase(); }",
+          "String toUpperCase() { return str.toUpperCase(); }",
+          "static String toUpperCase() { return this.str.toUpper(); }"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the method to find the longest common prefix.\n\n<pre><code class=\"language-java\">public class PrefixFinder {\n    public static String getLongestPrefix(String[] strings) {\n        if (strings == null || strings.length == 0) return \"\";\n        String prefix = strings[0];\n        for (int i = 1; i < ________.length; i++) {\n            while (________.indexOf(________[i]) != 0) {\n                ________ = ________.substring(0, prefix.length() - 1);\n                if (prefix.isEmpty()) return \"\";\n            }\n        }\n        return prefix;\n    }\n    public static void main(String[] args) {\n        String[] words = {\"flower\", \"flow\", \"flight\"};\n        System.out.println(\"Longest Prefix: \" + getLongestPrefix(words));\n    }\n}</code></pre>",
+        "options": [
+          "strings, prefix, strings, prefix",
+          "strings, strings, strings, prefix",
+          "strings, prefix, prefix, strings[i]",
+          "strings, strings, prefix, strings[i]"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Complete the TicTacToe winner check.\n\n<pre><code class=\"language-java\">public class Board {\n    private int[][] grid = new int[3][3];\n    public boolean hasWon(int turn) {\n        for (int i = 0; i < 3; i++) {\n            if (_________[i][0] == turn && _________[i][1] == turn && _________[i][2] == turn) return true;\n            if (_________[0][i] == turn && _________[1][i] == turn && _________[2][i] == turn) return true;\n        }\n        if (grid[0][0] == turn && grid[1][1] == turn && grid[2][2] == turn) return true;\n        if (grid[0][2] == turn && grid[1][1] == turn && grid[2][0] == turn) return true;\n        return false;\n    }\n}</code></pre>",
+        "options": [
+          "grid, grid, grid, grid, grid, grid",
+          "grid, grid, grid, grid[0], grid[1], grid[2]",
+          "grid[i], grid[i], grid[i], grid, grid, grid",
+          "grid[i], grid, grid[i], grid, grid, grid"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Rearrange this scrambled code into the correct order.\n\n<pre><code class=\"language-java\">System.out.println(message);\nString message = \"Hello World!\";\npublic class Test {\n}\npublic static void main(String[] args) {\n}</code></pre>",
+        "options": [
+          "public class Test { public static void main(String[] args) { String message = \"Hello World!\"; System.out.println(message); } }",
+          "public class Test { public static void main(String[] args) { System.out.println(message); String message = \"Hello World!\"; } }",
+          "public static void main(String[] args) { public class Test { System.out.println(message); String message = \"Hello World!\"; } }",
+          "System.out.println(message); String message = \"Hello World!\"; public class Test { public static void main(String[] args) { } }"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Rearrange this scrambled code for constructor chaining.",
+        "options": [
+          "Correct order with this(\"Hello from the second constructor\"); then constructor assigning message, then main creating object.",
+          "Alternative wrong order 1",
+          "Alternative wrong order 2",
+          "Alternative wrong order 3"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Rearrange this scrambled code to correctly implement a static method call.\n\n<pre><code class=\"language-java\">class TestStatic { }\nSystem.out.println(add(5, 10));\npublic class Test {\npublic static int add(int a, int b) {\n}\npublic static void main(String[] args) {\nreturn a + b;\n}\n}</code></pre>",
+        "options": [
+          "class TestStatic {} public class Test { public static int add(int a,int b){ return a+b;} public static void main(String[] args){ System.out.println(add(5,10)); } }",
+          "Incorrect order 1",
+          "Incorrect order 2",
+          "Incorrect order 3"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Rearrange the code to search for transfers by month & threshold.",
+        "options": [
+          "public static void searchTransfers(Transfer[] transfers, int month, double greaterThan) { for(Transfer t : transfers) { if (t.getDate().getMonthValue() == month && t.getAmount() > greaterThan) { System.out.println(t); } } }",
+          "Alternative order 1",
+          "Alternative order 2",
+          "Alternative order 3"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Rearrange the code to concatenate and display a string.\n\n<pre><code class=\"language-java\">System.out.println(result);\nString result = \"hello\";\nresult += \"world\";\npublic class TestStrings { }\npublic static void main(String[] args) { }\n</code></pre>",
+        "options": [
+          "public class TestStrings { public static void main(String[] args) { String result = \"hello\"; result += \"world\"; System.out.println(result); } }",
+          "Alternative order 1",
+          "Alternative order 2",
+          "Alternative order 3"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
+  
